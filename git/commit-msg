@@ -9,13 +9,20 @@ current_branch="$(git rev-parse --abbrev-ref HEAD)"
 
 # regex to validate in commit msg
 commit_regex='(^(fix|feat|docs|style|refactor|perf|test|chore)\([a-zA-Z]*\)\: )|^WIP: '
-error_msg="Aborting commit. Please respect angular commit convention"
+error_msg="Aborting commit. Please respect angular commit convention
+format: <fix|feat|docs|style|refactor|perf|test|chore>(<scope>): <subject>
+        <BLANK LINE>
+        <body>
+        <BLANK LINE>
+        <footer>
+doc: https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#-git-commit-guidelines
+"
 message=$(cat $1)
 
-RESULT=$(echo $message | grep -iE "$commit_regex")
+RESULT=$(echo $message | grep -E "$commit_regex")
 
 if [ -z "$RESULT" ]; then
-    echo "$error_msg:
-      $message" >&2
+    echo "$error_msg
+message: $message" >&2
     exit 1
 fi
