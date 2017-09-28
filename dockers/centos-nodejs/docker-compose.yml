@@ -2,7 +2,7 @@ version: '2'
 
 services:
 
-  pops-broker:
+  centos-nodejs:
     build: ./
     image: centos-nodejs
     command: top -b
