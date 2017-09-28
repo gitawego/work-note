@@ -8,9 +8,9 @@ services:
     command: top -b
     environment:
       TERM: xterm
-    ports:
-      - "1883:1883"
-      - "9001:9001"
+    #ports:
+    #  - "1883:1883"
+    #  - "9001:9001"
     volumes:
       - ./data:/mnt/dev
     restart: always
