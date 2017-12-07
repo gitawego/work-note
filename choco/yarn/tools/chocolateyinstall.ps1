@@ -1,15 +1,13 @@
 ﻿$ErrorActionPreference = "Stop"
  
 $packageName= 'yarn-portable'
-$url        = "https://yarnpkg.com/latest.tar.gz"
+$url        = "https://github.com/yarnpkg/yarn/releases/download/v1.3.2/yarn-v1.3.2.tar.gz"
  
-$nodePath = "$env:SystemDrive\Program Files\nodejs"
 $yarnFolder = "yarn-v1.3.2"
 # Install yarn to its own directory, not in the chocolatey lib folder
 # If requesting per user install use $env:APPDATA else $env:ProgramData
 $yarnPath = Join-Path $env:LocalAppData $packageName
 $yarnTmpPath = Join-Path $env:tmp $packageName
-$OsBits = Get-ProcessorBits
 
  
 $packageArgs = @{
