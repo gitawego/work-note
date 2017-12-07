@@ -25,6 +25,7 @@ $env:ChocolateyInstall="$InstallDir"
 # [Environment]::SetEnvironmentVariable("chocolateyProxyPassword", $password, "User")
 
 [Environment]::SetEnvironmentVariable("ChocolateyInstall", $InstallDir, "User")
+[Environment]::SetEnvironmentVariable("ChocolateyToolsLocation", "%ChocolateyInstall%\tools", "User")
 [Environment]::SetEnvironmentVariable("PATH", "%ChocolateyInstall%\bin;"+$env:Path, "User")
 
 
