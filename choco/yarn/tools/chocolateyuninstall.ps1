@@ -14,7 +14,7 @@ Uninstall-ChocolateyZipPackage $packageName $zipName
 # If uninstalling and not just upgrading
 # we will remove all node versions that were installed
 # and therefore any globally installed modules
-if (Test-Path $yarnPath) { Remove-Item $nvmPath -Force -Recurse }
+if (Test-Path $yarnPath) { Remove-Item $yarnPath -Force -Recurse }
 
 # Backwards compatible to pre 0.9.10 Choco
 Install-ChocolateyEnvironmentVariable -VariableName "YARN_HOME" -VariableValue $null -VariableType $EnvVariableType

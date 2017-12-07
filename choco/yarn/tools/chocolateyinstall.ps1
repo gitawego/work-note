@@ -8,7 +8,6 @@ $yarnFolder = "yarn-v1.3.2"
 # If requesting per user install use $env:APPDATA else $env:ProgramData
 $yarnPath = Join-Path $env:LocalAppData $packageName
 $yarnTmpPath = Join-Path $env:tmp $packageName
-
  
 $packageArgs = @{
   packageName   = $packageName
@@ -31,9 +30,9 @@ Get-ChocolateyUnzip -fileFullPath $File.FullName -destination $yarnPath
 #}
  
 # Could install per user variables if not running node as a service or other users
-Install-ChocolateyEnvironmentVariable -VariableName "YARN_HOME" -VariableValue "$yarnPath/$yarnFolder" -VariableType User;
+Install-ChocolateyEnvironmentVariable -VariableName "YARN_HOME" -VariableValue "$yarnPath\$yarnFolder" -VariableType User;
 
  
 # Adding yarn_HOME to the path isn't required if you use the shim, it IS required if you don't use the shim (ie install outside of $toolsDir or ignore above)
 # Having it on the PATH twice could be confusing even though it is the "same" file
-Install-ChocolateyPath -PathToInstall "%YARN_HOME%/bin" -PathType User;
+Install-ChocolateyPath -PathToInstall "%YARN_HOME%\bin" -PathType User;
