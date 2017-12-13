@@ -1,6 +1,8 @@
 ## FAQ
 
-### encounter ``RuntimeError: memory access out of bounds``
+### WASM
+
+#### encounter ``RuntimeError: memory access out of bounds``
 
 often it's because the build is not in release mode.
 
@@ -10,7 +12,9 @@ you have to build rust code in release mode:
 cargo  +nightly build --target wasm32-unknown-unknown --release
 ```
 
-### error: ``thread 'main' panicked at 'Couldn't find node_root_dir in node-gyp output.'`` in windows
+### neon
+
+#### error: ``thread 'main' panicked at 'Couldn't find node_root_dir in node-gyp output.'`` in windows
 
 install windows-build-tools in an admin shell
 
