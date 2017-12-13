@@ -10,7 +10,7 @@ you have to build rust code in release mode:
 cargo  +nightly build --target wasm32-unknown-unknown --release
 ```
 
-### error: ``thread 'main' panicked at 'Couldn't find node_root_dir in node-gyp output.'``
+### error: ``thread 'main' panicked at 'Couldn't find node_root_dir in node-gyp output.'`` in windows
 
 install windows-build-tools in an admin shell
 
