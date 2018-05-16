@@ -9,7 +9,7 @@
 
    TCP.prototype.writeBuffer = function () {
     var r = _writeBuffer.apply(this, arguments);
-    this.setKeepAlive(true, 30 ); // 30 sec
+    _setKeepAlive.call(this, true, 30 ); // 30 sec
    return r;
   };
   TCP.prototype.setKeepAlive = function (enable) {
