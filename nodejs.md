@@ -3,7 +3,7 @@
 ```js
 (function () {
   var TCP = process.binding('tcp_wrap').TCP
-    , _writeBuffer = TCP.prototype.writeBuffer,
+    , _writeBuffer = TCP.prototype.writeBuffer
     , _setKeepAlive = TCP.prototype.setKeepAlive
     , _shutdown = TCP.prototype.shutdown;
 
