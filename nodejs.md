@@ -26,3 +26,23 @@
   };
 })();
 ```
+
+## for garbage collector
+
+start node app with params:
+
+```js
+node --expose-gc file.js
+```
+
+and use this function:
+
+```js
+function forceGC()
+   if (global.gc) {
+      global.gc();
+   } else {
+      console.warn('No GC hook! Start your program as `node --expose-gc file.js`.');
+   }
+}
+```
