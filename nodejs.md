@@ -27,7 +27,7 @@
 })();
 ```
 
-## for garbage collector
+## force garbage collector
 
 start node app with params:
 
@@ -46,3 +46,23 @@ function forceGC()
    }
 }
 ```
+
+## useful nodejs flags
+
+### –nouse-idle-notification
+
+Turns of the idle garbage collection which makes the GC constantly run and is devastating for a realtime server environment. If not turned off the system will get a long hickup for almost a second once every few seconds.
+
+### –expose-gc
+
+Use the expose-gc command to enable manual control of the GC from your code. I recommend to call GC once every 30 seconds.
+
+### –max-old-space-size=8192
+
+Increases the limit for each V8 node process to use max 8Gb of heap memory instead of the 1,4Gb default on 64-bit machines(512Mb on a 32-bit machine).
+
+### –max-new-space-size=2048
+
+Specified in kb and setting this flag optimizes the V8 for a stable allround environment with short pauses and ok high peak performance.
+
+If this flag is not used the pauses will be a little bit longer but the machine will handle peaks a little bit better. What you need in this case depends on the project you are working on. My pick is to have an allround stable server instead of just handling peaks so I stick with this flag.
