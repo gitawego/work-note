@@ -8,3 +8,14 @@ how to install package without integrity check:
 yay -S --mflags --skipinteg google-chrome
 ```
 
+# command like apt-get update && apt-get upgrade.
+
+```shell
+sudo pacman -Syu
+```
+
+# command like apt-get install <package>
+  
+  ```shell
+  sudo pacman -S <package>
+  ```
