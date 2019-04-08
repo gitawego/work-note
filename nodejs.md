@@ -66,3 +66,10 @@ Increases the limit for each V8 node process to use max 8Gb of heap memory inste
 Specified in kb and setting this flag optimizes the V8 for a stable allround environment with short pauses and ok high peak performance.
 
 If this flag is not used the pauses will be a little bit longer but the machine will handle peaks a little bit better. What you need in this case depends on the project you are working on. My pick is to have an allround stable server instead of just handling peaks so I stick with this flag.
+
+## Yarn
+
+* disable self update check
+```shell
+yarn config set disable-self-update-check true
+```
