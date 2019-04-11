@@ -73,3 +73,7 @@ If this flag is not used the pauses will be a little bit longer but the machine 
 ```shell
 yarn config set disable-self-update-check true
 ```
+
+## use docker for development
+
+[example: streaming-ssr-react-styled-components](https://github.com/patrickleet/streaming-ssr-react-styled-components)
