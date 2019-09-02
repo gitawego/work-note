@@ -40,3 +40,16 @@ arr=( "${arr[@]/two/}" )
 # arr now contains: one three
 
 ```
+
+## loop in an array
+
+```shell
+# define an array
+array=( one two three )
+# loop in side an array
+for i in "${array[@]}"
+do
+  echo $i
+done
+
+```
