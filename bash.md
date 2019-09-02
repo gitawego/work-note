@@ -53,3 +53,23 @@ do
 done
 
 ```
+
+## check if element in array
+
+```shell
+containsElement () {
+  local e match="$1"
+  shift
+  for e; do [[ "$e" == "$match" ]] && return 0; done
+  return 1
+}
+
+array=("something to search for" "a string" "test2000")
+containsElement "a string" "${array[@]}"
+echo $?
+# 0
+containsElement "blaha" "${array[@]}"
+echo $?
+# 1
+
+```
