@@ -31,3 +31,12 @@ waitForMongo(){
 waitForMongo "mongo1:27017"
 echo "mongo1 now available"
 ```
+
+## remove an item from array
+
+```shell
+arr=(one two three)
+arr=( "${arr[@]/two/}" )
+# arr now contains: one three
+
+```
