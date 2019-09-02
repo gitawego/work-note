@@ -56,6 +56,8 @@ done
 
 ## check if element in array
 
+https://stackoverflow.com/a/8574392
+
 ```shell
 containsElement () {
   local e match="$1"
