@@ -14,7 +14,7 @@ fatal: could not set 'core.filemode' to 'false'
 
 Launch Ubuntu WSL
 
-Create the file /etc/wsl.conf if it doesn’t exist
+Create the file `/etc/wsl.conf` if it doesn’t exist
 
 Open the file (e.g.: nano /etc/wsl.conf) and add the following lines:
 
