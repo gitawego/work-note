@@ -45,9 +45,11 @@ input: 'arrb6???3xxbl5???eee5'
 output: false (6+3+5+5 = 19)
 ```
 
-<details>
-  ```js
-  function QuestionMarks(str) {
+<details><summary>show me</summary>
+
+  
+```js
+function QuestionMarks(str) {
   const reg = /([\d]{1})([?]{3}.*?)([\d]{1})/g;
   let res = 0;
   str.replace(reg, (item, num1, question, num2) => {
@@ -60,5 +62,5 @@ output: false (6+3+5+5 = 19)
   // Log to console
 console.log(QuestionMarks("arrb6???3xxbl5???eee5")); // false
 console.log(QuestionMarks("arrb6???4xxbl5???eee5")); // true
-  ```
+```
 </details>
