@@ -40,9 +40,9 @@ find numbers which between 2 numbers, there are 3 question marks, and calculate 
 if sum === 20, return true
 
 ```
-input: 'abc de fghi'
+input: 'arrb6???3xxbl5???eee5'
 
-output: 'abc def ghi'
+output: false (6+3+5+5 = 19)
 ```
 
 <details>
