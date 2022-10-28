@@ -64,3 +64,42 @@ console.log(QuestionMarks("arrb6???3xxbl5???eee5")); // false
 console.log(QuestionMarks("arrb6???4xxbl5???eee5")); // true
 ```
 </details>
+
+### describe how event loop in nodejs works (setTimeout/promise)
+
+### What are metric percentiles ?
+
+### Find max values of a tree
+
+```bash
+                           7
+                         /   \
+                        8     6
+                       /\       \
+                      2  4       3 
+```
+
+```js
+class Node {
+  constructor(val, children){
+    this.val = val;
+    this.children = children || [];
+  }
+  addChild(node){
+    this.children.push(node);
+  }
+}
+
+const lv3a = new Node(2);
+const lv3b = new Node(4);
+const lv3c = new Node(10)
+const lv2a = new Node(8,[lv3a, lv3b]);
+const lv2b = new Node(6,[lv3c]);
+const top = new Node(7,[lv2a,lv2b]);
+
+function findMax(topNode){
+  // add code
+}
+
+findMax(top) // it should be 19
+```
