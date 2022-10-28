@@ -92,7 +92,7 @@ class Node {
 
 const lv3a = new Node(2);
 const lv3b = new Node(4);
-const lv3c = new Node(10)
+const lv3c = new Node(3)
 const lv2a = new Node(8,[lv3a, lv3b]);
 const lv2b = new Node(6,[lv3c]);
 const top = new Node(7,[lv2a,lv2b]);
