@@ -97,9 +97,24 @@ const lv2a = new Node(8,[lv3a, lv3b]);
 const lv2b = new Node(6,[lv3c]);
 const top = new Node(7,[lv2a,lv2b]);
 
-function findMax(topNode){
+function findMax(node){
   // add code
 }
 
 findMax(top) // it should be 19
 ```
+
+<details><summary>show me</summary>
+ 
+ ```js
+ function findMax(node){
+  const val = node.val;
+  const children = node.children.map(findMax);
+  if(children.length > 1){
+    return val + Math.max.apply(Math, children);
+  }
+  return val + (children[0] || 0);
+}
+ ```
+
+</details>
