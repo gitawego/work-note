@@ -206,6 +206,9 @@ Business imperatives
 - D. identify commercial building blocks to be purchased
 - E. determine the required service levels for the architecture
 
+<details>
+<summary>Show me</summary>
+
 > The technique known as gap analysis is widely used in the TOGAF Architecture Development Method (ADM) to validate an architecture that is being developed.
 >
 > The basic premise is to highlight a shortfall between the Baseline Architecture and the Target Architecture; that is, items that have been `deliberately omitted`, `accidentally left out`, or `not yet defined`.
@@ -213,6 +216,8 @@ Business imperatives
 > A key step in validating an architecture is to consider what may have been forgotten. The architecture must support all of the essential information processing needs of the organization.
 >
 > The most `critical` source of gaps that should be considered is `stakeholder concerns` that have not been addressed in prior architectural work.
+
+</details>
 
 ## Complete the sentence. All of the following are parts of the conceptual structure of the TOGAF Architecture Governance Framework, except ______
 
