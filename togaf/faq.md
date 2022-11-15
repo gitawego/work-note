@@ -302,7 +302,12 @@ Business imperatives
 - D. Governance Log
 - E. Reference Library
 
+<details>
+<summary>Show me</summary>
+
 > The Architecture Capability defines the parameters, structures, and processes that support governance of the Architecture Repository
+
+</details>
 
 ## In which ADM phase are the business principles, business goals and strategic drivers first validated?
 
