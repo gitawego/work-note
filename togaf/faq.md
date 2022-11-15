@@ -118,9 +118,14 @@ answer: E
 - D. Establishing processes that support effective management of the architecture governance process
 - E. Developing practices that ensure accountability to stakeholders
 
+<details>
+<summary>Show me</summary>
+
 answer: A
 
 Architecture Governance doesn't include finance management
+
+</details>
 
 ## An association of companies has defined a data model for sharing inventory and pricing information. Which of the following best describes where this model would fit in the Architecture Continuum?
 
