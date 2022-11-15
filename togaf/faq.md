@@ -599,4 +599,5 @@ see https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap32.html#tag_32_0
 
 The Architecture Requirements Specification provides `a set of quantitative statements that outline what an implementation project must do in order to comply with the architecture`. An Architecture Requirements Specification will typically form a major component of an implementation contract or contract for a more detailed Architecture Definition.
 
+Answer is C
 </details>
