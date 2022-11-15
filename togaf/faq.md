@@ -396,7 +396,11 @@ Business imperatives
 - D. Mind Maps
 - E. SWOT Analysis
 
+<details>
+<summary>Show me</summary>
+
 > `Business scenarios` are an important technique that may be used prior to, and as a key input to, the development of the architecture, to derive the characteristics of the Technical Architecture directly from the high-level requirements of the business. They are used to help identify and understand business needs, and thereby to derive the business requirements that the architecture development has to address.
+</details>
 
 ## Which one of the following does TOGAF Part VI recommend in order to implement an Enterprise Architecture Capability?
 
