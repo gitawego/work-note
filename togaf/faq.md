@@ -222,7 +222,12 @@ Business imperatives
 - D. Repository
 - E. Vision
 
+<details>
+<summary>Show me</summary>
+
 > Architecture Governance Framework Conceptual Framework has: `Context`, `Process`, `Content`, `Repository`,`Process Flow Control`.
+
+</details>
 
 ## Complete the sentence. The Architecture Board is typically responsible and accountable for achieving all of the following goals except ___________
 
