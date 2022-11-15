@@ -273,7 +273,12 @@ Business imperatives
 - D. The senior management
 - E. The sponsoring organization
 
+<details>
+<summary>Show me</summary>
+
 > 6.5 Approach >> 6.5.1 General >> Phase A starts with receipt of a Request for Architecture Work from the `sponsoring organization` to the architecture organization
+
+</details>
 
 ## Which of the following is a true statement about the TOGAF Technical Reference Model?
 
