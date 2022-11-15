@@ -406,6 +406,9 @@ Business imperatives
 - D. Use the Architecture Development Method
 - E. Use the Implementation Governance Phase
 
+<details>
+<summary>Show me</summary>
+
 > <https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap40.html>
 >
 > As with any business capability, the establishment of an Enterprise Architecture Capability can be supported by the `TOGAF Architecture Development Method (ADM)`. Successful use of the ADM will provide a customer-focused, value-adding, and sustainable architecture practice that enables the business, helps maximize the value of investments, and pro-actively identifies opportunities to gain business benefits and manage risk.
@@ -415,3 +418,4 @@ Business imperatives
 > The ADM is an ideal method to be used to architect and govern the implementation of such a capability.
 >
 > Applying the ADM with the specific Architecture Vision to establish an architecture practice within the organization would achieve this objective.
+</details>
