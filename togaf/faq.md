@@ -359,6 +359,8 @@ Business imperatives
 - D. Strategic Intent
 - E. Technical elegance
 
+<details>
+<summary>Show me</summary>
 > TOGAF 9.2
 >
 > 5.5.3 Requirements for Architecture Work
@@ -374,6 +376,7 @@ Business imperatives
 > Significant elements of these need to be articulated so that the sponsor can identify all the key decision-makers and stakeholders involved in defining and establishing an Architecture Capability.
 >
 > so the answer is E
+</details>
 
 ## Which of the following best describes capability based planning?
 
