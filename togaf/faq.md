@@ -584,3 +584,19 @@ Consider three classes of building blocks:
 3. **Building blocks to be the subject of purchase**; i.e., Commercial Off-The-Shelf (COTS) applications.
 
 </details>
+
+## Which of the following statements best describes the purpose of the Architecture Requirements Specification?
+
+- A. A document that triggers the start of an architecture development cycle
+- B. A qualitative view of the solution to communicate the intent of the architect
+- C. A quantitative view of the solution to measure the implementation
+- D. A record of deviations from the planned architectural approach
+
+<details>
+<summary>Show me</summary>
+
+see https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap32.html#tag_32_02_06
+
+The Architecture Requirements Specification provides a set of quantitative statements that outline what an implementation project must do in order to comply with the architecture. An Architecture Requirements Specification will typically form a major component of an implementation contract or contract for a more detailed Architecture Definition.
+
+</details>
