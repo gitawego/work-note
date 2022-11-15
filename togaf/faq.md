@@ -196,7 +196,12 @@ Business imperatives
 - D. Enforcement Policy
 - E. Implications
 
+<details>
+<summary>Show me</summary>
+
 > Architecture Principles has: `Name`, `Statement`, `Rationale`, `Implications`.
+
+</details>
 
 ## Complete the sentence. The key purpose of Gap Analysis is to _____
 
