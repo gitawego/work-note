@@ -544,3 +544,21 @@ The **Architecture function** will be required to prepare a series of Project Ar
 The **IT Governance function** will define a formal Architecture Compliance review process (see 42.3 Architecture Compliance Reviews) for reviewing the compliance of projects to the Enterprise Architecture.
 
 </details>
+
+## Which one of the following describes a purpose of an Architecture Compliance review?
+
+- A. To define the capabilities of the organization
+- B. To communicate the technical readiness of the project
+- C. To evaluate the readiness of the organization to undergo change
+- D. To produce a new Request for Architecture Work
+
+<details>
+<summary>Show me</summary>
+
+see: https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap42.html
+
+An Architecture Compliance review is a scrutiny of the compliance of a specific project against established architectural criteria, spirit, and business objectives. A formal process for such reviews normally forms the core of an Enterprise Architecture Compliance strategy.
+
+Usually is performed via various Architecture Compliance Review Checklists.
+
+</details>
