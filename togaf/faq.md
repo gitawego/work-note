@@ -283,7 +283,13 @@ Business imperatives
 - D. The Technical Reference Model includes a set of graphical models and a corresponding taxonomy
 - E. The Technical Reference Model provides a direct mapping to the Zachman Framework
 
+
+<details>
+<summary>Show me</summary>
+
 > The objective of the TOGAF TRM is to provide a widely accepted `core taxonomy`, and an appropriate `visual representation` of that taxonomy.
+
+</details>
 
 ## Complete the sentence. The Integrated Information Infrastructure Reference Model (III-RM) is an example of a (n) ______ Architecture reference model
 
