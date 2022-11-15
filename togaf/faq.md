@@ -338,6 +338,8 @@ Business imperatives
 - C. Change Management
 - D. Measuring Business Growth
 
+<details>
+<summary>Show me</summary>
 > 1. Business Scenarios figure most prominently in the `Initial phase of an ADM cycle`, `Architecture Vision` Phase A, when they are used to define relevant business requirements and to build consensus with business management and other stakeholders.
 >
 > 2. Also `during Business Architecture` phase B maybe used to derive the characteristics of the architecture directly from the high-level requirements of the business.
@@ -350,6 +352,7 @@ Business imperatives
 > 2. The `business and technology environment`.
 > 3. The `people and computing components` ("actors") who execute the scenario.
 > 4. The `Desired Outcome` of proper execution.
+</details>
 
 ## When determining the requirements for enterprise architecture work in the Preliminary Phase, Which of the following is not a business imperative that should be considered?
 
