@@ -577,8 +577,8 @@ Answer is B
 
 Consider three classes of building blocks:
 
-1.Re-usable building blocks, such as legacy items.
-2.Building blocks to be the subject of development, such as new applications.
+1. Re-usable building blocks, such as legacy items.
+2. Building blocks to be the subject of development, such as new applications.
 3. Building blocks to be the subject of purchase; i.e., Commercial Off-The-Shelf (COTS) applications.
 
 </details>
