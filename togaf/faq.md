@@ -563,3 +563,22 @@ Usually is performed via various Architecture Compliance Review Checklists.
 
 Answer is B
 </details>
+
+## Complete the sentence. In TOGAF, legacy systems and processes that are going to be used again in the future are considered ______
+
+- A. Architecture Building Blocks
+- B. Components
+- C. Patterns
+- D. Re-usable Building Blocks
+- E. Solution Building Blocks
+
+<details>
+<summary>Show me</summary>
+
+Consider three classes of building blocks:
+
+1.Re-usable building blocks, such as legacy items.
+2.Building blocks to be the subject of development, such as new applications.
+3. Building blocks to be the subject of purchase; i.e., Commercial Off-The-Shelf (COTS) applications.
+
+</details>
