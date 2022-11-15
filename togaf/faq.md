@@ -242,10 +242,15 @@ Business imperatives
 - D. concerns of stakeholders
 - E. stakeholder requirements
 
+<details>
+<summary>Show me</summary>
+
 > 22.1.3.3 Patterns and Views
 > Architecture views are selected parts of one or more models representing a complete system architecture, focusing on those aspects that `address the concerns of one or more stakeholders`.
 >
 > Patterns can provide help in designing such models, and in composing views based on them.
+
+</details>
 
 ## According to TOGAF, Which of the following best describes the purpose of the Architecture Definition Document?
 
