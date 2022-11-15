@@ -130,7 +130,12 @@ Architecture Governance doesn't include finance management
 - D. Organization Specific Architecture
 - E. Product Line Architecture
 
+<details>
+<summary>Show me</summary>
+
 answer: C
+
+</details>
 
 ## What document is used to initiate a TOGAF ADM cycle?
 
