@@ -523,3 +523,24 @@ Business imperatives
 >
 > Applying the ADM with the specific Architecture Vision to establish an architecture practice within the organization would achieve this objective.
 </details>
+
+## Which one of the following is an essential aspect of architecture governance?
+
+- A. Authoring the Architecture Definition Document
+- B. Ensuring the compliance of individual projects to the enterprise architecture
+- C. Controlling the implementation and deployment organizations
+- D. Authoring the Communications Plan for a given architecture project
+- E. Conducting Business Scenarios
+
+<details>
+<summary>Show me</summary>
+
+ref: https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap42.html
+
+**Ensuring the compliance of individual projects with the Enterprise Architecture is an essential aspect of Architecture Governance** (see 44. Architecture Governance). To this end, the IT governance function within an enterprise will normally define two complementary processes:
+
+The **Architecture function** will be required to prepare a series of Project Architectures; i.e., project-specific views of the Enterprise Architecture that illustrate how the Enterprise Architecture impacts on the major projects within the organization (see ADM Phases A to F).
+
+The **IT Governance function** will define a formal Architecture Compliance review process (see 42.3 Architecture Compliance Reviews) for reviewing the compliance of projects to the Enterprise Architecture.
+
+</details>
