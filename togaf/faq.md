@@ -575,10 +575,12 @@ Answer is B
 <details>
 <summary>Show me</summary>
 
+see https://pubs.opengroup.org/architecture/togaf9-doc/m/chap33.html
+
 Consider three classes of building blocks:
 
-1. Re-usable building blocks, such as legacy items.
-2. Building blocks to be the subject of development, such as new applications.
-3. Building blocks to be the subject of purchase; i.e., Commercial Off-The-Shelf (COTS) applications.
+1. **Re-usable building blocks**, such as legacy items.
+2. **Building blocks to be the subject of development**, such as new applications.
+3. **Building blocks to be the subject of purchase**; i.e., Commercial Off-The-Shelf (COTS) applications.
 
 </details>
