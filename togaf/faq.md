@@ -292,7 +292,12 @@ Business imperatives
 - C. Data
 - D. Technology
 
+<details>
+<summary>Show me</summary>
+
 > It is fundamentally an Applications Architecture reference model - a model of the application components and application services software essential for an integrated information infrastructure.
+
+</details>
 
 ## What class of architectural information within the Architecture Repository defines processes that support governance of the Architecture Repository?
 
