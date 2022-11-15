@@ -232,7 +232,12 @@ Business imperatives
 - D. identifying and approving components for reuse
 - E. providing the basis for all decision-making with regard to changes to the architecture
 
+<details>
+<summary>Show me</summary>
+
 > architecture board doesn't approve business plans
+
+</details>
 
 ## Complete the sentence. In TOGAF, architecture viewpoints represent ______
 
