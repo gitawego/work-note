@@ -98,7 +98,12 @@ Standards Information Base
 - D. Statement of Architecture Work
 - E. Requirements Gathering
 
+<details>
+<summary>Show me</summary>
+
 answer: A
+
+</details>
 
 ## Which one of the following is a reason to adapt the ADM?
 
