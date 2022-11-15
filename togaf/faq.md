@@ -312,6 +312,8 @@ Business imperatives
 - D. Phase H
 - E. Requirements Management Phase
 
+<details>
+<summary>Show me</summary>
 > see [chap07](https://pubs.opengroup.org/architecture/togaf90-doc/arch/chap07.html)
 >
 > To validate the business principles, business goals, and strategic business drivers of the organization and the enterprise architecture Key Performance Indicators (KPIs)
@@ -321,6 +323,8 @@ Business imperatives
 > To develop a Target Business Architecture, describing the product and/or service strategy, and the organizational, functional, process, information, and geographic aspects of the business environment, based on the business principles, business goals, and strategic drivers.
 >
 > see [chap08](https://pubs.opengroup.org/architecture/togaf90-doc/arch/chap08.html)
+
+</details>
 
 ## Which of the following is NOT an objective for Phase B, Business Architecture?
 
