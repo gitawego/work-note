@@ -188,6 +188,13 @@ Business imperatives
 - D. ensuring that there is sufficient financial capacity to execute the desired transformation
 - E. determining if there is adequate stakeholder support for the implementation process
 
+<details>
+<summary>Show me</summary>
+
+> Answer is A
+
+</details>
+
 ## Complete the sentence. All of the following are sections of the recommended template for defining Architecture Principles, except ___________
 
 - A. Name
