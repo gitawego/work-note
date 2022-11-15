@@ -255,6 +255,9 @@ Business imperatives
 - D. A document that triggers the start of an architecture development cycle
 - E. A set of general rules and guidelines
 
+<details>
+<summary>Show me</summary>
+
 > Answer is C
 >
 > The Architecture Definition Document provides a qualitative view of the solution and aims to communicate the intent of the architect.
@@ -264,6 +267,8 @@ Business imperatives
 > An agreement between development partners and sponsors on the deliverables is an `Architecture Contract`.
 >
 > Architecture Contracts are the joint agreements between development partners and sponsors on the deliverables, quality, and fitness-for-purpose of an architecture
+
+</details>
 
 ## According to TOGAF, who usually initiates a Request for Architecture Work?
 
