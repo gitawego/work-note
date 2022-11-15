@@ -174,11 +174,16 @@ Business imperatives
 - D. Managing the flow of requirements
 - E. Prioritizing requirements
 
+<details>
+<summary>Show me</summary>
+
 > <https://pubs.opengroup.org/architecture/togaf8-doc/arch/chap15.html>
 >
 > Note also that the requirements management process itself does not dispose of, address, or prioritize any requirements: this is done within the relevant phase of the ADM.
 >
 > It is merely the process for managing requirements throughout the overall ADM
+
+</details>
 
 ## Complete the sentence. The Business Transformation Readiness Assessment technique is primarily focused on ___
 
