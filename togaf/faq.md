@@ -108,7 +108,12 @@ answer: A
 - D: The IT Governance model needs to be tailored.
 - E: All the above.
 
+<details>
+<summary>Show me</summary>
+
 answer: E
+
+</details>
 
 ## Which of the following are NOT included in Architecture Governance?
 
