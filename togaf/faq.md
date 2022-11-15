@@ -382,11 +382,15 @@ Business imperatives
 - C. A business planning technique that focuses on vertical capabilities
 - D. A human resource planning technique that focuses on capable architects
 
+<details>
+<summary>Show me</summary>
 > Answer is A
 >
 > Quote: "This chapter provides an overview of capability-based planning, a business planning technique that focuses on business outcomes."
 >
 > Ref: <https://pubs.opengroup.org/architecture/togaf9-doc/m/chap28.html>
+
+</details>
 
 ## Which of the following is a technique recommended by TOGAF to help identify and understand requirements?
 
