@@ -328,8 +328,11 @@ Business imperatives
 - B. Describing the Baseline Business Architecture
 - C. Developing the Target Business Architecture
 - D. Selecting relevant viewpoints for key stakeholders
+<details>
+<summary>Show me</summary>
 
 > Defining the Strategic Business Plan should be in another step
+</details>
 
 ## Which one of the following is NOT part of the approach to Phase H "Architecture Change Management" ?
 
