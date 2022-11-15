@@ -561,4 +561,5 @@ An Architecture Compliance review is a scrutiny of the compliance of a specific 
 
 Usually is performed via various Architecture Compliance Review Checklists.
 
+Answer is B
 </details>
