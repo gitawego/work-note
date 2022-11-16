@@ -613,6 +613,6 @@ Answer is C
 <details>
 <summary>Show me</summary>
 
-Answer is D, whe we don't know which one to pick, considering the title level in the chapters. we can see that D is not in the same summary level, it's a sub chapter
+Answer is D, whe we don't know which one to pick, considering the title level in the chapters. we can see that D is not in the same summary level, it's a sub chapter comparing to others
 
 </details>
