@@ -618,3 +618,17 @@ Answer is D.
 when we don't know which one to pick, considering the title level in the table of content. we can see that D is not in the same summary level, it's a sub chapter comparing to others
 
 </details>
+
+## Complete the sentence: The TOGAF Integrated Information Infrastructure Reference Model (III-RM) is classified in the Architecture Continuum as an example of a(n)
+
+- A. Common Systems Architecture
+- B. Industry Architecture
+- C. Enterprise Architecture
+- D. Foundation Architecture
+
+<details>
+<summary>Show me</summary>
+
+Answer is A.
+
+</details>
