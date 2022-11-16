@@ -631,4 +631,6 @@ when we don't know which one to pick, considering the title level in the table o
 
 Answer is A.
 
+It's used in phase C
+
 </details>
