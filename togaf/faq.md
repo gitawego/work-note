@@ -615,6 +615,6 @@ Answer is C
 
 Answer is D.
 
-when we don't know which one to pick, considering the title level in the chapters. we can see that D is not in the same summary level, it's a sub chapter comparing to others
+when we don't know which one to pick, considering the title level in the table of content. we can see that D is not in the same summary level, it's a sub chapter comparing to others
 
 </details>
