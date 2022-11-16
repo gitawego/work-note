@@ -601,3 +601,18 @@ The Architecture Requirements Specification provides `a set of quantitative stat
 
 Answer is C
 </details>
+
+## Which of the following topic areas is not included in the TOGAF 9 Foundation Syllabus?
+
+- A. Architecture Governance
+- B. Basic Concepts
+- C. Building Blocks
+- D. Guidelines for adapting the ADM: Iteration and Levels
+- E. Introduction to the ADM
+
+<details>
+<summary>Show me</summary>
+
+Answer is D, whe we don't know which one to pick, considering the title level in the chapters. we can see that D is not in the same summary level, it's a sub chapter
+
+</details>
