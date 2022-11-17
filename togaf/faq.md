@@ -835,3 +835,18 @@ Answer is C
 Answer is D
 
 </details>
+
+
+## Complete the sentence. The Transition Architectures defined in Phase E are confirmed with the stakeholders in _________________.
+
+A. Phase E
+B. Phase F
+C. Phase G
+D. Phase H
+
+<details>
+<summary>Show me</summary>
+
+Answer is B, in general, when see `confirmed`,`finalized`, it's should be in Phase F
+
+</details>
