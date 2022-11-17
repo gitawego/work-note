@@ -703,6 +703,7 @@ Answer is E, `oversee` is the keyword
 Answer is A. 
 
 - Requirement Impact Assessment is a deliverable
+- this assessment is used during all the cycle of ADM.
 
 </details>
 
