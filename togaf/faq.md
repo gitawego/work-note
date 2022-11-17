@@ -825,6 +825,8 @@ Answer is A
 
 Answer is C
 
+a `requirement` is `quantitatif`, so it must be `measurable`.
+
 </details>
 
 ## Which of the following is not one of the domain architectures produced by the TOGAF ADM process?
