@@ -433,6 +433,7 @@ Business imperatives
 
 <details>
 <summary>Show me</summary>
+
 > 1. Business Scenarios figure most prominently in the `Initial phase of an ADM cycle`, `Architecture Vision` Phase A, when they are used to define relevant business requirements and to build consensus with business management and other stakeholders.
 >
 > 2. Also `during Business Architecture` phase B maybe used to derive the characteristics of the architecture directly from the high-level requirements of the business.
