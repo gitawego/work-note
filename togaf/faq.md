@@ -761,3 +761,19 @@ A `good building block` has the following characteristics:
 Answer is D.
 
 </details>
+
+
+## Which phase of the ADM is used to finalize a set of transition architectures that will support implementation?
+
+- A. Phase D
+- B. Phase E
+- C. Phase F
+- D. Phase G
+- E. Phase H
+
+<details>
+<summary>Show me</summary>
+
+Answer is c, keyword `finalize`
+
+</details>
