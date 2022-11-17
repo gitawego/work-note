@@ -485,6 +485,7 @@ Business imperatives
 
 <details>
 <summary>Show me</summary>
+
 > Answer is A
 >
 > Quote: "This chapter provides an overview of capability-based planning, a business planning technique that focuses on business outcomes."
