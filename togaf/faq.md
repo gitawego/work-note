@@ -400,6 +400,7 @@ Business imperatives
 
 <details>
 <summary>Show me</summary>
+
 > see [chap07](https://pubs.opengroup.org/architecture/togaf90-doc/arch/chap07.html)
 >
 > To validate the business principles, business goals, and strategic business drivers of the organization and the enterprise architecture Key Performance Indicators (KPIs)
