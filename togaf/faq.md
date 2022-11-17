@@ -790,6 +790,9 @@ Answer is c, keyword `finalize`
 
 Answer is A
 
+- guideline: to adapt ADM
+- technique: used as steps in ADM
+
 </details>
 
 ## Which of the following classes of architectural information within the Architecture Repository defines processes that support governance of the Architecture Repository?
