@@ -650,7 +650,12 @@ Answer is D
 
 pay attention to word `technology-related`, D is not the case
 
-in standards initialtives, it contains: standard technology
+Standards Classification within the Standards Information Base:
+
+- Business Standards:
+- Data Standards
+- Application Standards
+- Technology Standards
 
 </details>
 
