@@ -645,5 +645,22 @@ It's used in phase C.
 
 <details>
 <summary>Show me</summary>
+
 Answer is D
+
+</details>
+
+## Gap analysis is a key step in validating the architecture in Phase B: Business Architecture. Which one of the following statements is true?
+
+- A. Gap analysis highlights services that are available
+- B. Gap analysis highlights the impacts of change
+- C. Gap analysis highlights services that are yet to be procured
+- D. Gap analysis identifies areas where the Data Architecture needs to change
+- E. Gap analysis can be used to resolve conflicts amongst different viewpoints
+
+<details>
+<summary>Show me</summary>
+
+Answer is C, `procured` is the keyword
+
 </details>
