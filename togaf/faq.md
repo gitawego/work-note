@@ -691,6 +691,8 @@ Answer is E, `oversee` is the keyword
 <details>
 <summary>Show me</summary>
 
-Answer is A
+Answer is A. 
+
+- Requirement Impact Assessment is a deliverable
 
 </details>
