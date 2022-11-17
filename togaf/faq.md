@@ -892,6 +892,6 @@ The Answer is correct. (TOGAF Standard Version 9.2 Chapter 35.4.1)
 
 The TOGAF Integrated Information Infrastructure Reference Model (III-RM) — see the TOGAF® Series Guide: 
 
-> The TOGAF Integrated Information Infrastructure Reference Model (III-RM) — is a reference model that supports describing Common Systems Architecture in the Application Domain that focuses on the requirements, building blocks, and standards relating to the vision of Boundaryless Information Flow.
+> The TOGAF Integrated Information Infrastructure Reference Model (III-RM) — is a reference model that supports describing Common Systems Architecture in the Application Domain that focuses on the requirements, building blocks, and standards relating to the vision of `Boundaryless Information Flow`.
 
 </details>
