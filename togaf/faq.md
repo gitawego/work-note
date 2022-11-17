@@ -791,7 +791,7 @@ Answer is c, keyword `finalize`
 Answer is A
 
 - guideline: to adapt ADM
-- technique: used as steps in ADM
+- technique: used as steps in ADM, ex: risk management, stakeholder management
 
 </details>
 
