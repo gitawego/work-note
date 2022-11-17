@@ -895,3 +895,18 @@ The TOGAF Integrated Information Infrastructure Reference Model (III-RM) — see
 > The TOGAF Integrated Information Infrastructure Reference Model (III-RM) — is a reference model that supports describing Common Systems Architecture in the Application Domain that focuses on the requirements, building blocks, and standards relating to the vision of `Boundaryless Information Flow`.
 
 </details>
+
+## Which of the following describes the Architecture Vision document?
+
+- A. A description of individual change increments showing progression from the baseline to target architecture
+- B. A detailed schedule for implementation of the target architecture
+- C. A high level description of the baseline and target architectures
+- D. A joint agreement between the development team and sponsor on the deliverables and quality of an architecture
+- E. A set of rules and guidelines to support fulfilling the mission of the organization
+
+<details>
+<summary>Show me</summary>
+
+The Architecture Vision includes a first-cut, high-level description of the baseline and target environments, from both a business and a technical perspective. These outline descriptions are then built on in subsequent phases.
+
+</details>
