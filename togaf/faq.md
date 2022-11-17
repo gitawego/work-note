@@ -791,3 +791,18 @@ Answer is c, keyword `finalize`
 Answer is A
 
 </details>
+
+## Which of the following classes of architectural information within the Architecture Repository defines processes that support governance of the Architecture Repository?
+
+- A. Architecture Capability
+- B. Architecture Landscape
+- C. Architecture Metamodel
+- D. Governance Log
+- E. Reference Library
+
+<details>
+<summary>Show me</summary>
+
+Answer is A
+
+</details>
