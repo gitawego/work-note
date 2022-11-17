@@ -679,3 +679,18 @@ Answer is C, `procured` is the keyword
 Answer is E, `oversee` is the keyword
 
 </details>
+
+## What TOGAF deliverable identifies changes that are needed to the current architecture requirements and specification, and also documents the implications of change?
+
+- A. Requirements Impact Assessment
+- B. Architecture Vision
+- C. Gap Analysis Results
+- D. Architecture Landscape
+- E. Architecture Roadmap
+
+<details>
+<summary>Show me</summary>
+
+Answer is B
+
+</details>
