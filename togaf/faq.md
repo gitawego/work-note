@@ -648,6 +648,8 @@ It's used in phase C.
 
 Answer is D
 
+pay attention to word `technology-related`, D is not the case
+
 </details>
 
 ## Gap analysis is a key step in validating the architecture in Phase B: Business Architecture. Which one of the following statements is true?
