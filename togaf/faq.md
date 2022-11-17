@@ -817,6 +817,6 @@ Answer is A
 <details>
 <summary>Show me</summary>
 
-Answer is B
+Answer is C
 
 </details>
