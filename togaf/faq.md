@@ -737,7 +737,7 @@ Answer is B.
 
 Answer is A. 
 
-A good building block has the following characteristics:
+A `good building block` has the following characteristics:
 
 - It `considers` implementation and usage, and evolves to exploit technology and standards
 - It may be `assembled` from other building blocks
