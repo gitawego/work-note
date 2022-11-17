@@ -730,9 +730,9 @@ Answer is A.
 
 A good building block has the following characteristics:
 
-- It considers implementation and usage, and evolves to exploit technology and standards
-- It may be assembled from other building blocks
-- It may be a subassembly of other building blocks
-- Ideally a building block is re-usable and replaceable, and well specified
+- It `considers` implementation and usage, and evolves to exploit technology and standards
+- It may be `assembled` from other building blocks
+- It may be a `subassembly` of other building blocks
+- Ideally a building block is `re-usable` and `replaceable`, and well `specified`
 
 </details>
