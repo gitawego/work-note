@@ -877,3 +877,21 @@ Answer is B, in general, when see `confirmed`,`finalized`, it's should be in Pha
 Answer is B, in general, it's the definition. 
 
 </details>
+
+## Which of the following TOGAF components was created to enable architects to design architectures addressing Boundaryless Information Flow?
+
+- A. The Architecture Repository
+- B. The Enterprise Continuum
+- C. The Integrated Information Infrastructure Model
+- D. The TOGAF Technical Reference Model
+
+<details>
+<summary>Show me</summary>
+
+The Answer is correct. (TOGAF Standard Version 9.2 Chapter 35.4.1)
+
+The TOGAF Integrated Information Infrastructure Reference Model (III-RM) — see the TOGAF® Series Guide: 
+
+The TOGAF Integrated Information Infrastructure Reference Model (III-RM) — is a reference model that supports describing Common Systems Architecture in the Application Domain that focuses on the requirements, building blocks, and standards relating to the vision of Boundaryless Information Flow.
+
+</details>
