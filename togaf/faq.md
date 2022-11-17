@@ -714,3 +714,25 @@ Answer is B.
 - SBB is specific functinality
 
 </details>
+
+## Which of the following is considered by TOGAF as an attribute of a good building block?
+
+- A. A building block that is re-usable
+- B. A building block meeting business needs
+- C. A building block with public interfaces
+- D. A building block that guides the development of solutions
+- E. A building block that is product-aware
+
+<details>
+<summary>Show me</summary>
+
+Answer is A. 
+
+A good building block has the following characteristics:
+
+- It considers implementation and usage, and evolves to exploit technology and standards
+- It may be assembled from other building blocks
+- It may be a subassembly of other building blocks
+- Ideally a building block is re-usable and replaceable, and well specified
+
+</details>
