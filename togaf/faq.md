@@ -384,6 +384,9 @@ Business imperatives
 <summary>Show me</summary>
 
 > The Architecture Capability defines the `parameters`, `structures`, and `processes` that support governance of the Architecture Repository
+>
+> define how do we work
+
 
 </details>
 
