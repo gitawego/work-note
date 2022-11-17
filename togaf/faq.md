@@ -806,3 +806,17 @@ Answer is A
 Answer is A
 
 </details>
+
+## Which of the following statements best describes the purpose of the Architecture Requirements Specification?
+
+- A. A document that triggers the start of an architecture development cycle
+- B. A qualitative view of the solution to communicate the intent of the architect
+- C. A quantitative view of the solution to measure the implementation
+- D. A record of deviations from the planned architectural approach to identify changes to be made
+
+<details>
+<summary>Show me</summary>
+
+Answer is B
+
+</details>
