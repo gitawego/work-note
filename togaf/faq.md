@@ -820,3 +820,18 @@ Answer is A
 Answer is C
 
 </details>
+
+## Which of the following is not one of the domain architectures produced by the TOGAF ADM process?
+
+- A. Application Architecture
+- B. Business Architecture
+- C. Data Architecture
+- D. Pattern Architecture
+- E. Technology Architecture
+
+<details>
+<summary>Show me</summary>
+
+Answer is D
+
+</details>
