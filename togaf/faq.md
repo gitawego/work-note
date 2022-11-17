@@ -664,3 +664,18 @@ Answer is D
 Answer is C, `procured` is the keyword
 
 </details>
+
+## According to the TOGAF standard, which of the following best describes why an Architecture Board should be established?
+
+= A. To conduct performance appraisals on the enterprise architecture team
+- B. To conduct source code design reviews
+- C. To ensure that new systems are introduced in a managed change process
+- D. To facilitate the adoption of advanced technologies
+- E. To oversee the implementation of the governance strategy
+
+<details>
+<summary>Show me</summary>
+
+Answer is E, `oversee` is the keyword
+
+</details>
