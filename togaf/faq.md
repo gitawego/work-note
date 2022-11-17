@@ -736,3 +736,18 @@ A good building block has the following characteristics:
 - Ideally a building block is `re-usable` and `replaceable`, and well `specified`
 
 </details>
+
+## As architecture deliverables and work products created in one ADM phase are modified by subsequent phases, how does TOGAF suggest tracking the changes?
+
+- A. Change control committee
+- B. Document checkpoints and journaling
+- C. Publish and subscribe system
+- D. Version numbers
+- E. Workflow management system
+
+<details>
+<summary>Show me</summary>
+
+Answer is D.
+
+</details>
