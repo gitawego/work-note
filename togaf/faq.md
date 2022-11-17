@@ -650,6 +650,8 @@ Answer is D
 
 pay attention to word `technology-related`, D is not the case
 
+in standards initialtives, it contains: standard technology
+
 </details>
 
 ## Gap analysis is a key step in validating the architecture in Phase B: Business Architecture. Which one of the following statements is true?
