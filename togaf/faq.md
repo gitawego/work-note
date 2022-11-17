@@ -634,3 +634,16 @@ Answer is A.
 It's used in phase C.
 
 </details>
+
+## Complete the sentence: All of the following are technology-related drivers for architecture Change Requests, except __________
+
+- A. asset management cost reductions
+- B. new technology reports
+- C. standards initiatives
+- D. strategic change
+- E. technology withdrawal
+
+<details>
+<summary>Show me</summary>
+Answer is D
+</details>
