@@ -850,3 +850,17 @@ D. Phase H
 Answer is B, in general, when see `confirmed`,`finalized`, it's should be in Phase F
 
 </details>
+
+## Which one of the following best describes an Architecture Contract?
+
+- A. An agreement between the development partners and stakeholders on the acceptable risks and mitigating actions for an architecture
+- B. An agreement between development partners and sponsors on the deliverables, quality, and fitnessfor- purpose of an architecture
+- C. An agreement between the lead architect and the development partners on the enforcement of Architecture Compliance for an architecture
+- D. An agreement between development partners and sponsors on how best to monitor implementation of the architecture
+
+<details>
+<summary>Show me</summary>
+
+Answer is B, in general, it's the definition. 
+
+</details>
