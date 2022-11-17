@@ -777,3 +777,17 @@ Answer is D.
 Answer is c, keyword `finalize`
 
 </details>
+
+## Which one of the following statements best describes the ADM Guidelines and Techniques?
+
+- A. Guidelines address different usage scenarios including different process styles and specialist architectures that can be adapted in the ADM
+- B. Guidelines address different usage scenarios that cannot be adapted directly into the ADM iteration process
+- C. Techniques support different usage scenarios that can be adapted directly into the ADM iteration process
+- D. Techniques support different usage scenarios including different process styles and specialist architectures that can be adapted in the ADM
+
+<details>
+<summary>Show me</summary>
+
+Answer is A
+
+</details>
