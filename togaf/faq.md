@@ -696,3 +696,21 @@ Answer is A.
 - Requirement Impact Assessment is a deliverable
 
 </details>
+
+## Which one of the following best describes the content of an Architecture Building Block?
+
+- A. Defined implementation
+- B. Fundamental functionality
+- C. Products and components used to implement the functionality
+- D. Product or vendor-aware
+- E. Specific functionality
+
+<details>
+<summary>Show me</summary>
+
+Answer is B. 
+
+- ABB is fundamental functionality
+- SBB is specific functinality
+
+</details>
