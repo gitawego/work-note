@@ -287,7 +287,7 @@
 - `Business Scenarios` are the recommended technique for developing architecture vision.
 - The `business imperatives` behind the Enterprise Architecture work drive the requirements and performance metrics for the architecture work.
 - Architecture Definition Document
-  - provides a qualitative view of the solution and aims to communicate the intent of the architect.
+  - provides a `qualitative view` of the solution and aims to `communicate the intent of the architect`.
 
 
 ## NOTE
