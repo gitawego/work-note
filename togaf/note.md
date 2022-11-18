@@ -64,7 +64,7 @@
   - architecture domains: business, data, application, technology
 - scope is reviewable in each debut of the phase, until phase E.
 - architecture contracts:
-  - the joint agreements between development partners and sponsors on the deliverables, quality, and fitness-for-purpose of an architecture.
+  - the joint agreements between `development partners` and `sponsors` on the `deliverables`, `quality`, and `fitness-for-purpose` of an `architecture`.
   - phase A: statement of architecture work
     - it decides go/no-go
   - architecture domains (business, data, application, technology)
