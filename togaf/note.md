@@ -273,6 +273,7 @@
   - `Architecture Contract` is signed in `phase G`.
 - Architecture Definition Document
   - The deliverable container for the core architectural artifacts created during a project and for important related information. The Architecture Definition Document spans all architecture domains (business, data, application, and technology) and also examines all relevant states of the architecture (baseline, transition, and target).
+  - A description to communicate the intent of the architect
 - **Principles**:
   - `Control Technical Diversity`: reducing costs
   - `Interoperability`: optimizing resources
@@ -283,8 +284,9 @@
   - This matrix can be used as a planning tool when creating work packages.
   - The identified dependencies will drive the creation of projects and migration planning in Phases E and F.
 - `Business Scenarios` are the recommended technique for developing architecture vision.
-- The `business imperatives` behind the Enterprise Architecture work drive the requirements and
-performance metrics for the architecture work.
+- The `business imperatives` behind the Enterprise Architecture work drive the requirements and performance metrics for the architecture work.
+- 
+
 
 ## NOTE
 
