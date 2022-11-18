@@ -288,7 +288,7 @@
 - The `business imperatives` behind the Enterprise Architecture work drive the requirements and performance metrics for the architecture work.
 - Architecture Definition Document
   - provides a `qualitative view` of the solution and aims to `communicate the intent of the architect`.
-- Phase A starts with receipt of a Request for Architecture Work from the sponsoring organization to the architecture organization
+- Phase A starts with receipt of a Request for Architecture Work from the `sponsoring` organization to the architecture organization
 
 
 ## NOTE
