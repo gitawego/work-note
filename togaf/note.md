@@ -283,7 +283,7 @@
   - This matrix can be used as a planning tool when creating work packages.
   - The identified dependencies will drive the creation of projects and migration planning in Phases E and F.
 - `Business Scenarios` are the recommended technique for developing architecture vision.
-- The b`usiness imperatives` behind the Enterprise Architecture work drive the requirements and
+- The `business imperatives` behind the Enterprise Architecture work drive the requirements and
 performance metrics for the architecture work.
 
 ## NOTE
