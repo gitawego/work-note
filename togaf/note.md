@@ -299,7 +299,7 @@
   - simplification change:
     - If the change is at an `infrastructure level` — for example, ten systems reduced or changed to one system — this may not change the architecture above the physical layer, but it will change the Baseline Description of the Technology Architecture; this would be a `simplification change` handled via change management technique.
     - driven by a requirement to reduce investment
-- Steps in an `Architecture Compliance Review` 
+- **Steps in an `Architecture Compliance Review`**
   1. Identify responsible part of organization and relevant project principals.
   2. Identify Lead Enterprise Architect and other architects.
   3. Determine scope of review.
