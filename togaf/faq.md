@@ -957,3 +957,20 @@ Related Outputs of Phase A are to:
 Answer is E
 
 </details>
+
+
+## Which of the following is defined by TOGAF as a representation of a system from the perspective of a related set of concerns?
+
+- A. Architecture Building Block
+- B. Capability Architecture
+- C. Statement of Work
+- D. View
+- E. Viewpoint
+
+
+<details>
+<summary>Show me</summary>
+
+Answer is D, because it's the `representation`.
+
+</details>
