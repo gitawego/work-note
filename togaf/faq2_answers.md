@@ -1,8 +1,6 @@
 # Answers
 
-## 
 ## Chapter 1
-
 
 - Q1. B There are two levels : Level 1 leads to TOGAF 9 Foundation and Level 2 leads to TOGAF 9 Certified.
 - Q2. B TOGAF 9 Foundation is the entry-level qualification. Options C and D do not exist as options within the program.
