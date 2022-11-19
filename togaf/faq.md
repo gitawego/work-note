@@ -1209,3 +1209,24 @@ The TOGAF `Foundation Architecture` is an architecture of generic services and f
 Answer is B
     
 </details>
+
+##  Which of the following are the major information areas managed by a governance repository?
+
+- A. Foundation Architectures, Industry Architectures, Organization-Specific
+Architectures
+- B. Standards Information Base, Architecture Landscape, Governance Log
+- C. Reference Data, Process Status, Audit Information
+- D. Application Architecture, Business Architecture, Data Architecture
+
+
+<details>
+<summary>Show me</summary>
+
+`Reference Data`, `Process Status`, A`udit Information` are the recommended `information areas` managed by a governance repository.
+
+Answer is C
+    
+</details>
+
+
+
