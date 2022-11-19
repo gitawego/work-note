@@ -1253,6 +1253,8 @@ Answer is A, because Enterprise Continnum is considered as a view of the reposit
 <details>
 <summary>Show me</summary>
 
-Answer is A, it generates the outline of implementation and migration strategy in Phase E, and they are finalized in Phase F.
+Answer is A
+
+it generates the outline of implementation and migration strategy in Phase E, and they are finalized in Phase F.
     
 </details>
