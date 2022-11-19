@@ -290,8 +290,12 @@
   - provides a `qualitative view` of the solution and aims to `communicate the intent of the architect`.
 - Phase A starts with receipt of a Request for Architecture Work from the `sponsoring` organization to the architecture organization
 - **Rules about changes types in change management**:
-  - If the impact is significant for the business strategy, then there may be a need to redo the whole Enterprise Architecture—thus a `re-architecting change approach`.
-  - If a new technology or standards emerge, then there may be a need to refresh the Technology Architecture, but not the whole Enterprise Architecture—thus an `incremental change`
+  - re-architecting change:
+    - If the impact is significant for the business strategy, then there may be a need to redo the whole Enterprise Architecture—thus a `re-architecting change approach`.
+    - driven by a requirement to increase investment in order to create new value for exploitation.
+  - incremental change:
+    - If a new technology or standards emerge, then there may be a need to refresh the Technology Architecture, but not the whole Enterprise Architecture—thus an `incremental change`
+    - driven by a requirement to derive additional value from existing investment
   - If the change is at an `infrastructure level` — for example, ten systems reduced or changed to one system — this may not change the architecture above the physical layer, but it will change the Baseline Description of the Technology Architecture; this would be a `simplification change` handled via change management technique.
 
 
