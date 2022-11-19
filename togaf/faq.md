@@ -990,3 +990,25 @@ Answer is C
 33.2.2: A building block’s boundary and speciﬁcation should be loosely coupled to its implementation
 
 </details>
+
+## Which one of the following is responsible for the acceptance and sign-off of an Architecture Compliance review?
+
+- A. Architecture Board
+- B. Architecture Review Co-ordinator
+- C. CIO
+- D. Lead Enterprise Architect
+- E. Project Leader
+
+<details>
+<summary>Show me</summary>
+
+Answer is A
+
+https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap42.html
+
+42.4.1 Overview
+The Architecture Compliance review process is illustrated in Figure 42-2 .
+
+Step 11 - "Accept review and sign off." Performed by "Architecture Board and Customer".
+
+</details>
