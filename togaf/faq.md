@@ -1089,3 +1089,19 @@ Another way of looking at these three choices is to say that:
 
 Answer is A
 </details>
+
+## Which of the following best completes the sentence? The Architecture Repository ________.
+
+- A. is used to store different classes of architectural output created by the ADM
+- B. is a categorisation mechanism for classifying architecture and solution artifacts
+- C. is a detailed model of architectural work products, including deliverables and artifacts
+- D. is an architecture of generic functions and services
+- E. is a set of resources to help establish an architecture capability within an organization
+
+<details>
+<summary>Show me</summary>
+
+We are talking about architecture repository, but not enterprise continuum.
+
+Answer is A
+</details>
