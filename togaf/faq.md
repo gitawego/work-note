@@ -1193,3 +1193,19 @@ Answer is C
 Answer is G, Implementation Governance
     
 </details>
+
+## Which one of the following is an architecture of generic services and functions?
+
+- A. Application Architecture
+- B. Foundation Architecture
+- C. Segment Architecture
+- D. Solution Architecture
+
+<details>
+<summary>Show me</summary>
+
+The TOGAF `Foundation Architecture` is an architecture of generic services and functions that provides a foundation on which more specific architectures and architectural components can be built.
+
+Answer is B
+    
+</details>
