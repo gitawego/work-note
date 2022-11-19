@@ -1119,3 +1119,17 @@ Answer is A
 
 Answer is E, it's in Phase A
 </details>
+
+## Which of the following best describes TOGAF?
+
+- A. An abstract framework for the development of standards and processes for a business architecture
+- B. A collection of components organized to accomplish a specific set of functions
+- C. A process model, best practices and assets to aid production, use and maintenance of enterprise architectures
+- D. A reference model containing taxonomy defining terminology for an enterprise architecture, together with an associated graphic
+- E. A system development lifecycle method for software engineering
+
+<details>
+<summary>Show me</summary>
+
+Answer is C, the keyword is `enterprise architecture`
+</details>
