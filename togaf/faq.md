@@ -1030,3 +1030,24 @@ Answer is A
 
 Answer is B
 </details>
+
+
+## Which of the following best describes the meaning of "Initial Level of Risk" in Risk Management?
+
+- A. The categorization after implementation of mitigating actions
+- B. The categorization after initial risk assessment
+- C. The categorization after mitigation and residual risk assessment
+- D. The categorization before determining and implementing mitigating actions
+- E. The categorization before risk identification
+
+<details>
+<summary>Show me</summary>
+
+
+There are two levels of risk that should be considered, namely:
+
+- **Initial Level of Risk**: risk categorization prior to determining and implementing mitigating actions
+- **Residual Level of Risk**: risk categorization after implementation of mitigating actions (if any)
+
+Answer is B
+</details>
