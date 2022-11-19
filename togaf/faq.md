@@ -782,7 +782,9 @@ Answer is D.
 <details>
 <summary>Show me</summary>
 
-Answer is c, keyword `finalize`
+Answer is c
+
+keyword `finalize`
 
 </details>
 
