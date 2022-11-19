@@ -1296,3 +1296,19 @@ Answer is A
 Compliance is part of the `process`
     
 </details>
+
+## Which of the following documents is produced in Phase A as a response to the Request for Architecture Work?
+
+- A. Architecture Contract
+- B. Architecture Definition Document
+- C. Requirements Impact Statement
+- D. Statement of Architecture Work
+
+<details>
+<summary>Show me</summary>
+
+Answer is D
+
+`Statement` is the response of `request`
+    
+</details>
