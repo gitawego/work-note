@@ -1229,4 +1229,16 @@ Answer is C
 </details>
 
 
+## Which of the following is considered a model for a physical instance of the Enterprise Continuum?
 
+- A. The Architecture Repository
+- B. The III-RMC. 
+- C. The Standards Information Base
+- D. The TOGAF TRM
+
+<details>
+<summary>Show me</summary>
+
+Answer is A, because Enterprise Continnum is considered as a view of the repository of all the architecture assets
+    
+</details>
