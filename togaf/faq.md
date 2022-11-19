@@ -942,7 +942,7 @@ Answer is E
 <details>
 <summary>Show me</summary>
 
-https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap06.html
+<https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap06.html>
 
 The objectives of Phase A are to:
 
