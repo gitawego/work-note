@@ -1279,3 +1279,20 @@ The objectives of Phase H are to:
 - Ensure that the Enterprise Architecture Capability meets current requirements
     
 </details>
+
+## Conceptually, the structure of an Architecture Governance Framework consists of process, content, and context (stored in the repository). The following are included in content, except:
+
+- A. Compliance
+- B. SLAs and OLAs
+- C. Organizational standards
+- D. Regulatory requirements
+- E. Architectures
+
+<details>
+<summary>Show me</summary>
+
+Answer is A
+
+Compliance is part of the `process`
+    
+</details>
