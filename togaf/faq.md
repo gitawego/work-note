@@ -1008,7 +1008,7 @@ https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap42.html
 42.4.1 Overview
 The Architecture Compliance review process is illustrated in Figure 42-2 .
 
-Step 11 - "Accept review and sign off." Performed by "Architecture Board and Customer".
+Step 11 - `Accept review and sign off` Performed by `Architecture Board and Customer`.
 
 Answer is A
 </details>
