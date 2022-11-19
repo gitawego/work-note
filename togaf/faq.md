@@ -1133,3 +1133,31 @@ Answer is E, it's in Phase A
 
 Answer is C, the keyword is `enterprise architecture`
 </details>
+
+## Which one of the following best describes the next step in an Architecture Compliance Review once the scope of the review has been determined?
+
+- A. Interview the project principals to obtain background information
+- B. Prepare the Architecture Compliance Review report
+- C. Schedule the Architecture Review meeting
+- D. Send the assessment report to the Architecture Review co-ordinator
+- E. Tailor the checklists to address business requirements
+
+<details>
+<summary>Show me</summary>
+
+Answer is E
+
+https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap42.html
+
+1. Identify responsible part of organization and relevant project principals.
+2. Identify Lead Enterprise Architect and other architects.
+3. Determine scope of review.
+4. Tailor checklists.
+5. Schedule Architecture Review Meeting.
+6. Interview project principals.
+7. Analyze completed checklists.
+8. Prepare Architecture Compliance review report.
+9. Present review findings.
+10. Accept review and sign off.
+    
+</details>
