@@ -910,3 +910,23 @@ The TOGAF Integrated Information Infrastructure Reference Model (III-RM) — see
 The Architecture Vision includes a first-cut, high-level description of the baseline and target environments, from both a business and a technical perspective. These outline descriptions are then built on in subsequent phases.
 
 </details>
+
+
+## According to TOGAF, Which of the following best describes the classification of architectural change in the case where multiple server systems are being consolidated to a single system?
+
+- A. A bottom-up change to enhance operational capability
+- B. An incremental change handled via change management techniques
+- C. A re-architecting change that puts the whole architecture through an ADM cycle
+- D. A revision change of the enterprise architecture
+- E. A simplification change handled via change management techniques
+
+<details>
+<summary>Show me</summary>
+
+- If the impact is significant for the business strategy, then there may be a need to redo the whole Enterprise Architecture—thus a `re-architecting change approach`.
+- If a new technology or standards emerge, then there may be a need to refresh the Technology Architecture, but not the whole Enterprise Architecture—thus an `incremental change`
+- If the change is at an `infrastructure level` — for example, ten systems reduced or changed to one system — this may not change the architecture above the physical layer, but it will change the Baseline Description of the Technology Architecture; this would be a `simplification change` handled via change management technique.
+
+Answer is E
+
+</details>
