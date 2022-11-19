@@ -930,3 +930,30 @@ The Architecture Vision includes a first-cut, high-level description of the base
 Answer is E
 
 </details>
+
+## Which one of the following is an objective of Phase A of the TOGAF ADM?
+
+- A. To allocate the resources needed to implement the architecture project
+- B. To define the framework that is going to be used to develop the enterprise architecture
+- C. To define an IT Strategy that maps out the technology infrastructure
+- D. To prepare a Solution Architecture for the enterprise
+- E. To secure formal approval to proceed
+
+<details>
+<summary>Show me</summary>
+
+https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap06.html
+
+The objectives of Phase A are to:
+
+- **Develop a high-level aspirational vision** of the capabilities and business value to be delivered as a result of the proposed Enterprise Architecture.
+- **Obtain approval for a Statement of Architecture Work** that defines a program of works to develop and deploy the architecture outlined in the Architecture Vision.
+
+Related Outputs of Phase A are to:
+
+- Approved Statement of Architecture Work.
+- Architecture Vision.
+
+Answer is E
+
+</details>
