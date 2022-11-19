@@ -1012,3 +1012,21 @@ Step 11 - `Accept review and sign off` Performed by `Architecture Board and Cust
 
 Answer is A
 </details>
+
+## Which of the following best describes an approach for adapting the ADM in the situation where the business case for doing architecture is not well recognized?
+
+- A. Completion of the Business Architecture should follow the Information Systems Architecture
+- B. Create an Architecture Vision and then a detailed Business Architecture
+- C. Produce a "cut-down" version of the ADM suitable to the resources available
+- D. Tailor the ADM in conjunction with another architecture framework that has deliverables specific to the vertical sector
+- E. Tailor the ADM to reflect the relationships with, and dependencies on other management processes within the organization
+
+<details>
+<summary>Show me</summary>
+
+
+> ...if the business case for doing architecture at all is not well recognized, then creating an Architecture Vision is almost always essential; and a detailed Business Architecture often needs to come next, in order to underpin the Architecture Vision, detail the business case for remaining architecture work, and secure the active participation of key stakeholders in that work. Ref: Adapting the ADM under section "4.3 Adapting the ADM
+" at <https://pubs.opengroup.org/architecture/togaf9-doc/arch/>
+
+Answer is B
+</details>
