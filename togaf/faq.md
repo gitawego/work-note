@@ -1258,3 +1258,24 @@ Answer is A
 it generates the outline of implementation and migration strategy in Phase E, and they are finalized in Phase F.
     
 </details>
+
+## Which one of the following is an objective of Phase H: Architecture Change Management?
+
+- A. Finalize the Architecture Roadmap
+- B. Manage architecture requirements identified during execution of the ADM cycle
+- C. Perform Architecture Governance functions for the solution
+- D. Operate the Architecture Governance Framework
+
+
+<details>
+<summary>Show me</summary>
+
+Answer is D
+
+The objectives of Phase H are to:
+
+- Ensure that the architecture lifecycle is maintained
+- Ensure that the `Architecture Governance Framework is executed`
+- Ensure that the Enterprise Architecture Capability meets current requirements
+    
+</details>
