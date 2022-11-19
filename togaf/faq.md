@@ -1065,3 +1065,27 @@ Answer is D
 
 Answer is D
 </details>
+
+## Which of the following describes the Phase H classification for an Incremental change?
+
+- A. A change driven by a requirement to derive additional value from the existing investment
+- B. A change driven by a requirement to increase investment in order to create new value for exploitation
+- C. A change driven by a requirement to reduce investment
+- D. A change driven by a requirement to re-align with the business strategy
+
+
+<details>
+<summary>Show me</summary>
+
+https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap15.html
+
+"Incremental change": an incremental change may be capable of being handled via change management techniques.
+
+Another way of looking at these three choices is to say that:
+
+- a simplification change to an architecture is often driven by a requirement to reduce investment; 
+- an incremental change is driven by a requirement to derive additional value from existing investment; 
+- a re-architecting change is driven by a requirement to increase investment in order to create new value for exploitation.
+
+Answer is A
+</details>
