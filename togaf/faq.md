@@ -1149,6 +1149,8 @@ Answer is E
 
 https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap42.html
 
+Steps in an `Architecture Compliance Review` 
+
 1. Identify responsible part of organization and relevant project principals.
 2. Identify Lead Enterprise Architect and other architects.
 3. Determine scope of review.
