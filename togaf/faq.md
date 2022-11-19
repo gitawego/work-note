@@ -909,6 +909,8 @@ The TOGAF Integrated Information Infrastructure Reference Model (III-RM) — see
 
 The Architecture Vision includes a first-cut, high-level description of the baseline and target environments, from both a business and a technical perspective. These outline descriptions are then built on in subsequent phases.
 
+Answer is C
+
 </details>
 
 
