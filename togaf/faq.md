@@ -1051,3 +1051,23 @@ There are two levels of risk that should be considered, namely:
 
 Answer is D
 </details>
+
+## Which of the following best describes the state of architecture artifacts as a project progresses through ADM Phases A to D?
+
+- A. The artifacts are transformed into solution architectures
+- B. The artifacts become increasingly product focused
+- C. The artifacts become increasingly generic and re-usable
+- D. The artifacts evolve from generic architectures to organization-specific architectures
+- E. The artifacts evolve from common systems architectures to foundation architectures
+
+<details>
+<summary>Show me</summary>
+
+
+There are two levels of risk that should be considered, namely:
+
+- **Initial Level of Risk**: risk categorization prior to determining and implementing mitigating actions
+- **Residual Level of Risk**: risk categorization after implementation of mitigating actions (if any)
+
+Answer is D
+</details>
