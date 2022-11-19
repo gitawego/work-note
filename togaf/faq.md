@@ -974,3 +974,19 @@ Answer is E
 Answer is D, because it's the `representation`.
 
 </details>
+
+## Which one of the following statements about TOGAF Building Blocks is true?
+
+- A. Building blocks at a functional level are known as Solutions Building Blocks
+- B. Solutions Building Blocks are selected in Phases A, B, C and D
+- C. The specification of a building block should be loosely coupled to its implementation
+- D. The gap analysis technique should be used to identify building blocks for re-use
+
+<details>
+<summary>Show me</summary>
+
+Answer is C
+
+33.2.2: A building block’s boundary and speciﬁcation should be loosely coupled to its implementation
+
+</details>
