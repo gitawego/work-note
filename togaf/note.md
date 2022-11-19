@@ -296,7 +296,9 @@
   - incremental change:
     - If a new technology or standards emerge, then there may be a need to refresh the Technology Architecture, but not the whole Enterprise Architecture—thus an `incremental change`
     - driven by a requirement to derive additional value from existing investment
-  - If the change is at an `infrastructure level` — for example, ten systems reduced or changed to one system — this may not change the architecture above the physical layer, but it will change the Baseline Description of the Technology Architecture; this would be a `simplification change` handled via change management technique.
+  - simplification change:
+    - If the change is at an `infrastructure level` — for example, ten systems reduced or changed to one system — this may not change the architecture above the physical layer, but it will change the Baseline Description of the Technology Architecture; this would be a `simplification change` handled via change management technique.
+    - driven by a requirement to reduce investment
 
 
 ## NOTE
