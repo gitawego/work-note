@@ -1242,3 +1242,17 @@ Answer is C
 Answer is A, because Enterprise Continnum is considered as a view of the repository of all the architecture assets
     
 </details>
+
+## In which ADM phase is an outline Implementation and Migration Strategy generated?
+
+- A. Phase E
+- B. Phase F
+- C. Phase G
+- D. Phase H
+
+<details>
+<summary>Show me</summary>
+
+Answer is A, it generates the outline of implementation and migration strategy in Phase E, and they are finalized in Phase F.
+    
+</details>
