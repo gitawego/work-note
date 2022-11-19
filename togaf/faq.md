@@ -1163,3 +1163,18 @@ Steps in an `Architecture Compliance Review`
 10. Accept review and sign off.
     
 </details>
+
+## Which one of the following describes three principles of the TOGAF 9 People certification program?
+
+- A. Integrity, Scalability, Flexibility
+- B. Objectivity, Robustness, Simplicity
+- C. Openness, Fairness, Quality
+- D. Knowledge-based, Valuable, Simplicity
+- E. All of these
+
+<details>
+<summary>Show me</summary>
+
+Answer is C
+    
+</details>
