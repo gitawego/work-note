@@ -1063,11 +1063,5 @@ Answer is D
 <details>
 <summary>Show me</summary>
 
-
-There are two levels of risk that should be considered, namely:
-
-- **Initial Level of Risk**: risk categorization prior to determining and implementing mitigating actions
-- **Residual Level of Risk**: risk categorization after implementation of mitigating actions (if any)
-
 Answer is D
 </details>
