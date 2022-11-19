@@ -1222,7 +1222,7 @@ Architectures
 <details>
 <summary>Show me</summary>
 
-`Reference Data`, `Process Status`, A`udit Information` are the recommended `information areas` managed by a governance repository.
+`Reference Data`, `Process Status`, `Audit Information` are the recommended `information areas` managed by a governance repository.
 
 Answer is C
     
