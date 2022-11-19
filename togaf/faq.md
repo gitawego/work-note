@@ -1105,3 +1105,17 @@ We are talking about architecture repository, but not enterprise continuum.
 
 Answer is A
 </details>
+
+## Complete the sentence. In the Preliminary Phase, all of the following are part of preparing the organization to undertake successful enterprise architecture, except __________.
+
+- A. defining architecture principles
+- B. defining relationships between management frameworks
+- C. defining the enterprise
+- D. evaluating the enterprise architecture maturity
+- E. identifying stakeholders and their concerns
+
+<details>
+<summary>Show me</summary>
+
+Answer is E, it's in Phase A
+</details>
