@@ -1002,7 +1002,6 @@ Answer is C
 <details>
 <summary>Show me</summary>
 
-Answer is A
 
 https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap42.html
 
@@ -1011,4 +1010,5 @@ The Architecture Compliance review process is illustrated in Figure 42-2 .
 
 Step 11 - "Accept review and sign off." Performed by "Architecture Board and Customer".
 
+Answer is A
 </details>
