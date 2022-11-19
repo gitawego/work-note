@@ -1178,3 +1178,18 @@ Steps in an `Architecture Compliance Review`
 Answer is C
     
 </details>
+
+## Which of the TOGAF Architecture Development phases provides oversight of the implementation?
+
+- A. Phase D
+- B. Phase E
+- C. Phase F
+- D. Phase G
+- E. Phase H
+
+<details>
+<summary>Show me</summary>
+
+Answer is G, Implementation Governance
+    
+</details>
