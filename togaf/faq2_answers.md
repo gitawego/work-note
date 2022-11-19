@@ -106,30 +106,29 @@
 - Q10. A Architecture Board
 - Q11. D Phase D: Technology Architecture
 
-## Chapter 1
-0
+## Chapter 10
 - Q1. E Stakeholder
 - Q2. A It is the other way round. A viewpoint is considered a template for a view.
 - Q3. D They are not synonymous as concerns are used to derive requirements.
 - Q4. E Radio is the common tool.
 - Q5. B A and B should be one or more stakeholders/concerns. D is incorrect.
 
-## Chapter 1
-1
+## Chapter 11
+
 - Q1. D Building blocks should have a loose coupling to implementation to allow for multiple implementations and re-implementation.
 - Q2. A ABBs define functionality – not implementation.
 - Q3. D Phase E
 
-## Chapter 1
-2
+## Chapter 12
+
 - Q1. B TOGAF should be tailored for use.
 - Q2. B The Architecture Repository
 - Q3. B The Architecture Definition Document
 - Q4. E Architecture Vision
 - Q5. D The Statement of Architecture Work
 
-## Chapter 1
-3
+## Chapter 13
+
 - Q1. D Testing guidelines are not included.
 - Q2. B It is a visual model and taxonomy.
 - Q3. A It is at the left-hand side, the most generic, of the Architecture Continuum.
