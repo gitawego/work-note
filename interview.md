@@ -118,3 +118,59 @@ findMax(top) // it should be 19
  ```
 
 </details>
+
+### exchange minmum coins
+
+Given a value V, if we want to make a change for V cents, and we have an infinite supply of each of C = [C1, C2, .., Cm] valued coins, 
+what is the minimum number of coins to make the change? If it’s not possible to make a change, print null.
+
+```ts
+function changeCoins(bills: number, coins: number[]) {
+
+}
+
+// should output: null;
+console.log(changeCoins(13, [9, 6, 5]));
+// should output {6:1, 5:1}
+console.log(changeCoins(11, [9, 6, 5]));
+// should output {25:1,5:1}
+console.log(changeCoins(30, [25, 10, 5]));
+// should output {9:1,1:2} or {6:1, 5:1}
+// bonus question: how to only return 2nd result
+console.log(changeCoins(11, [9, 6, 5, 1]));
+```
+
+<details><summary>show me</summary>
+ 
+ ```ts
+function doChangeCoins(bills: number, coins: number[], res: any = {}): any {
+  if (coins.length === 0) {
+    return null;
+  }
+  const coin = coins[0];
+  const num = Math.floor(bills / coin);
+  const restBills = bills - num * coin;
+  if (num > 0) {
+    res[coin] = num;
+    // res.bills = restBills;
+  }
+  if (restBills <= 0) {
+    return res;
+  }
+  return doChangeCoins(restBills, coins.slice(1), res);
+}
+
+function changeCoins(bills: number, coins: number[]) {
+  const tmpCoins = coins.slice(0);
+  tmpCoins.sort((a, b) => (a > b ? -1 : 1));
+  for (let i = 0; i < tmpCoins.length; i++) {
+    const resp = doChangeCoins(bills, tmpCoins.slice(i));
+    if (resp) {
+      return resp;
+    }
+  }
+  return null;
+}
+ ```
+
+</details>
