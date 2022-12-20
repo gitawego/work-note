@@ -37,31 +37,42 @@ groupString('abc de fghi')
 
 find numbers which between 2 numbers, there are 3 question marks, and calculate the sum.
 
-if sum === 20, return true
-
 ```
 input: 'arrb6???3xxbl5???eee5'
 
-output: false (6+3+5+5 = 19)
+output: 19 (6+3+5+5 = 19)
 ```
 
 <details><summary>show me</summary>
 
   
 ```js
-function QuestionMarks(str) {
-  const reg = /([\d]{1,})([?]{3}.*?)([\d]{1,})/g;
-  let res = 0;
-  str.replace(reg, (item, num1, question, num2) => {
-    res += Number(num1) + Number(num2);
+function questionMarks(str) {
+  const res = {
+    total: 0,
+    prevIdx: -1,
+    prevNum: 0,
+  };
+  str.replace(/([\d]{1,})/g, (num1, num2, idx) => {
+    if (res.prevIdx === -1) {
+      res.prevNum = +num1;
+      res.prevIdx = idx;
+      return;
+    }
+    const hasQ = str.slice(res.prevIdx, idx).includes('???');
+    res.prevIdx = idx;
+    if (hasQ) {
+      res.total += res.prevNum + Number(num1);
+    }
+    res.prevNum = +num1;
   });
-  console.log('res', res);
-  return res === 20;
+  return res;
 }
   
   // Log to console
-console.log(QuestionMarks("arrb6???3xxbl5???eee5")); // false
-console.log(QuestionMarks("arrb6???4xxbl5???eee5")); // true
+console.log(questionMarks("arrb6???3xxbl5???eee5")); // 19
+console.log(questionMarks("arrb6xx???4xxbl5???eee5")); // 20
+console.log(questionMarks("arrb16xx???3???eee5")); // 24
 ```
 </details>
 
