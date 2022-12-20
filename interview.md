@@ -50,7 +50,7 @@ output: false (6+3+5+5 = 19)
   
 ```js
 function QuestionMarks(str) {
-  const reg = /([\d]{1})([?]{3}.*?)([\d]{1})/g;
+  const reg = /([\d]{1,})([?]{3}.*?)([\d]{1,})/g;
   let res = 0;
   str.replace(reg, (item, num1, question, num2) => {
     res += Number(num1) + Number(num2);
