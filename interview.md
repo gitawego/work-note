@@ -48,10 +48,12 @@ output: 19 (6+3+5+5 = 19)
   
 ```js
 function questionMarks(str) {
+  console.log('str', str);
   const res = {
     total: 0,
     prevIdx: -1,
     prevNum: 0,
+    continualCounter: 0,
   };
   str.replace(/([\d]{1,})/g, (num1, num2, idx) => {
     if (res.prevIdx === -1) {
@@ -60,9 +62,17 @@ function questionMarks(str) {
       return;
     }
     const hasQ = str.slice(res.prevIdx, idx).includes('???');
+    // console.log(num1, num2, hasQ, res);
     res.prevIdx = idx;
     if (hasQ) {
-      res.total += res.prevNum + Number(num1);
+      if (res.continualCounter !== 0) {
+        res.total += Number(num1);
+      } else {
+        res.total += res.prevNum + Number(num1);
+      }
+      ++res.continualCounter;
+    } else {
+      res.continualCounter = 0;
     }
     res.prevNum = +num1;
   });
