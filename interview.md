@@ -53,7 +53,7 @@ function questionMarks(str) {
     total: 0,
     prevIdx: -1,
     prevNum: 0,
-    continualCounter: 0,
+    isContinue: false,
   };
   str.replace(/([\d]{1,})/g, (num1, num2, idx) => {
     if (res.prevIdx === -1) {
@@ -65,18 +65,18 @@ function questionMarks(str) {
     // console.log(num1, num2, hasQ, res);
     res.prevIdx = idx;
     if (hasQ) {
-      if (res.continualCounter !== 0) {
+      if (res.isContinue) {
         res.total += Number(num1);
       } else {
         res.total += res.prevNum + Number(num1);
       }
-      ++res.continualCounter;
+      res.isContinue = true;
     } else {
-      res.continualCounter = 0;
+      res.isContinue = false;
     }
     res.prevNum = +num1;
   });
-  return res;
+  return res.total;
 }
   
   // Log to console
