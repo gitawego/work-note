@@ -128,13 +128,11 @@ findMax(top) // it should be 19
 <details><summary>show me</summary>
  
  ```js
- function findMax(node){
-  const val = node.val;
-  const children = node.children.map(findMax);
-  if(children.length > 1){
-    return val + Math.max.apply(Math, children);
+function findMax(node){
+  if(node.children.length === 0){
+      return node.val;
   }
-  return val + (children[0] || 0);
+  return node.val + Math.max(...node.children.map(findMax));
 }
  ```
 
