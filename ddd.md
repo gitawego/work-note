@@ -11,7 +11,7 @@
   - NOTE: Dependency injection is useful to inject adapter in order to change it easily, for example, for unit test. 
 - Building Blocks
     - https://blog.lelonek.me/ddd-building-blocks-for-ruby-developers-cdc6c25a80d2
-- DTO:
+- DTO (Data Transfer Objects):
   - Request DTO: data interface for INPUT
   - Response DTO: data interface for OUTPUT
   - Mapper: to transform raw data into target DTO format.
