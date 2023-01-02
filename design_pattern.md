@@ -2,6 +2,12 @@
 
 ## Domain Driven Design
 
+### Hexagonal Architecture
+
+> Confusingly, the pattern really has nothing to do with hexagons, it’s just how it’s usually drawn. The fact that it has 6 sides is arbitrary.
+>
+> 
+
 ### General notes
 
 - Commands and Queries
