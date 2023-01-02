@@ -37,6 +37,8 @@ Choreography provides to coordinate sagas with applying publish-subscribe princi
 
 Orchestration provides to coordinate sagas with a centralized controller microservice. This centralized controller microservice, orchestrate the saga workflow and invoke to execute local microservices transactions in sequentially.
 
+Orchestration way is good for complex workflows which includes lots of steps. But this makes `single point-of-failure` with centralized controller microservices and need implementation of complex steps.
+
 ### Differences
 
 `Orchestration-Based Saga` is more simple compared to `Choreography-Based Saga`, and it is most suitable for situations like,
