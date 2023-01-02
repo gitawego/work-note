@@ -17,3 +17,33 @@
   - Request DTO: data interface for INPUT
   - Response DTO: data interface for OUTPUT
   - Mapper: to transform raw data into target DTO format.
+
+
+## Saga Architecture Pattern
+
+- Implement each business transaction that spans multiple services is a saga. 
+- A saga is a sequence of local transactions. 
+- Each local transaction updates the database and publishes a message or event to trigger the next local transaction in the saga. 
+- If a local transaction fails because it violates a business rule then the saga executes a series of **compensating transactions** that undo the changes that were made by the preceding local transactions.
+  - a local transaction can't be auto-healed in case of probleme, because it's already commited. 
+- a `compensating transaction` must be **idempotent** and **retryable**. 
+
+### Choreography Saga Pattern
+
+Choreography provides to coordinate sagas with applying publish-subscribe principles. With choreography, each microservices run its own local transaction and publishes events to message broker system and that trigger local transactions in other microservices.
+
+### Orchestration Saga Pattern
+
+Orchestration provides to coordinate sagas with a centralized controller microservice. This centralized controller microservice, orchestrate the saga workflow and invoke to execute local microservices transactions in sequentially.
+
+### Differences
+
+`Orchestration-Based Saga` is more simple compared to `Choreography-Based Saga`, and it is most suitable for situations like,
+
+- When there are already implemented Microservices.
+- When a large number of Microservices participate in a single transaction.
+
+`Choreography-Based Saga` is more complex than the `Orchestration-Based Saga` approach. So that the Choreography-Based Saga approach is more suitable for situations like,
+
+When you implement new Microservices from scratch.
+When a small number of Microservices participate in a single transaction.
