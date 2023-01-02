@@ -67,7 +67,7 @@ Orchestration way is good for complex workflows which includes lots of steps. Bu
 
 ### Links
 
+- https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/saga/saga
 - https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-data-persistence/saga-pattern.html
 - https://www.baeldung.com/cs/saga-pattern-microservices
 - http://chrisrichardson.net/post/microservices/2019/07/09/developing-sagas-part-1.html
-- https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/saga/saga
