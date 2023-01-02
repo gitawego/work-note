@@ -1,5 +1,19 @@
 # Design Patterns
 
+- [Design Patterns](#design-patterns)
+  - [Domain Driven Design](#domain-driven-design)
+    - [Hexagonal Architecture](#hexagonal-architecture)
+    - [General notes](#general-notes)
+  - [Saga Architecture Pattern](#saga-architecture-pattern)
+    - [CONS](#cons)
+    - [Choreography Saga Pattern](#choreography-saga-pattern)
+    - [Orchestration Saga Pattern](#orchestration-saga-pattern)
+    - [Differences of two sagas](#differences-of-two-sagas)
+      - [Orchestration-Based Saga](#orchestration-based-saga)
+      - [Choreography-Based Saga](#choreography-based-saga)
+    - [Links](#links)
+
+
 ## Domain Driven Design
 
 ### Hexagonal Architecture
