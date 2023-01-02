@@ -45,5 +45,5 @@ Orchestration provides to coordinate sagas with a centralized controller microse
 
 `Choreography-Based Saga` is more complex than the `Orchestration-Based Saga` approach. So that the Choreography-Based Saga approach is more suitable for situations like,
 
-When you implement new Microservices from scratch.
-When a small number of Microservices participate in a single transaction.
+- When you implement new Microservices from scratch.
+- When a small number of Microservices participate in a single transaction.
