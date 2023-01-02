@@ -33,7 +33,7 @@ You should consider using this pattern if:
 
 - The application needs to maintain data consistency across multiple microservices without tight coupling.
 - There are long-lived transactions and you don’t want other microservices to be blocked if one microservice runs for a long time.
-  - 2 phase commit (2PC) pattern blocks the process
+  - 2 phase commit (2PC) pattern blocks the process.
 - You need to be able to roll back if an operation fails in the sequence.
 
 ### CONS
