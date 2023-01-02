@@ -1,6 +1,8 @@
-# Domain Driven Design
+# Design Pattern
 
-## general notes
+## Domain Driven Design
+
+### general notes
 
 - Commands and Queries
   - **Commands**: operations of create, update, delete
