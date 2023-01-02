@@ -5,8 +5,10 @@
 ### Hexagonal Architecture
 
 > Confusingly, the pattern really has nothing to do with hexagons, it’s just how it’s usually drawn. The fact that it has 6 sides is arbitrary.
->
-> 
+
+The concept behind Hexagonal Architecture is that your core application logic is written with only a concept of whatever external dependencies it has. 
+
+In object-oriented terms this means it declares and references and interface, but leaves the implementation of that interface out of the core logic. 
 
 ### General notes
 
