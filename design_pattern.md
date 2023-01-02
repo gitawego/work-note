@@ -10,6 +10,8 @@ The concept behind Hexagonal Architecture is that your core application logic is
 
 In object-oriented terms this means it declares and references and interface, but leaves the implementation of that interface out of the core logic. 
 
+This can be thought of as a “port” such a display port or USB port. The outer layer of the application then creates an “adapter” which plugs into the port, so if there was a database port, the adapter would plug into that port and provide a connection to a particular database.
+
 ### General notes
 
 - Commands and Queries
