@@ -1,4 +1,4 @@
-# Design Pattern
+# Design Patterns
 
 ## Domain Driven Design
 
