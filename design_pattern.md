@@ -38,6 +38,7 @@ This can be thought of as a “port” such a display port or USB port. The oute
 - If a local transaction fails because it violates a business rule then the saga executes a series of **compensating transactions** that undo the changes that were made by the preceding local transactions.
   - a local transaction can't be auto-healed in case of probleme, because it's already commited. 
 - a `compensating transaction` must be **idempotent** and **retryable**. 
+- every `transaction` has a `compensating transaction`.
 
 You should consider using this pattern if:
 
