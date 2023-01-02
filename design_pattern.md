@@ -50,7 +50,7 @@ Orchestration provides to coordinate sagas with a centralized controller microse
 
 Orchestration way is good for complex workflows which includes lots of steps. But this makes `single point-of-failure` with centralized controller microservices and need implementation of complex steps.
 
-### Differences
+### Differences of two sagas
 
 `Orchestration-Based Saga` is more simple compared to `Choreography-Based Saga`, and it is most suitable for situations like,
 
