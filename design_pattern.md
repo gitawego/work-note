@@ -21,6 +21,7 @@
 
 ## Saga Architecture Pattern
 
+- The saga pattern is a **failure management pattern** that helps establish consistency in distributed applications, and coordinates transactions between multiple microservices to maintain data consistency.
 - Implement each business transaction that spans multiple services is a saga. 
 - A saga is a sequence of local transactions. 
 - Each local transaction updates the database and publishes a message or event to trigger the next local transaction in the saga. 
