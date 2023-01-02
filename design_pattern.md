@@ -2,7 +2,7 @@
 
 ## Domain Driven Design
 
-### general notes
+### General notes
 
 - Commands and Queries
   - **Commands**: operations of create, update, delete
