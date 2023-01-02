@@ -29,6 +29,17 @@
   - a local transaction can't be auto-healed in case of probleme, because it's already commited. 
 - a `compensating transaction` must be **idempotent** and **retryable**. 
 
+You should consider using this pattern if:
+
+- The application needs to maintain data consistency across multiple microservices without tight coupling.
+- There are long-lived transactions and you don’t want other microservices to be blocked if one microservice runs for a long time.
+- You need to be able to roll back if an operation fails in the sequence.
+
+CONS:
+
+- The saga pattern is difficult to debug and its complexity increases with the number of microservices. 
+- The pattern requires a complex programming model that develops and designs compensating transactions for rolling back and undoing changes.
+
 ### Choreography Saga Pattern
 
 Choreography provides to coordinate sagas with applying publish-subscribe principles. With choreography, each microservices run its own local transaction and publishes events to message broker system and that trigger local transactions in other microservices.
