@@ -253,7 +253,6 @@ function solution(board, word) {
   const totalLines = board.length;
   const totalCols = board[0].length;
   for (let y = 0; y < totalCols; y++) {
-    const lineItems = [];
     const colItems = [];
     const diagItems = [];
     let yy = y;
@@ -265,7 +264,6 @@ function solution(board, word) {
       colItems.push(board[l][y]);
       diagItems.push(board[l][yy++]);
     }
-    counter += lineItems.join('').split(word).length - 1;
     counter += colItems.join('').split(word).length - 1;
     counter += diagItems.join('').split(word).length - 1;
   }
