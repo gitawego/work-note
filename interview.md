@@ -268,7 +268,6 @@ function solution(board, word) {
     counter += lineItems.join('').split(word).length - 1;
     counter += colItems.join('').split(word).length - 1;
     counter += diagItems.join('').split(word).length - 1;
-    lineItems.length = 0;
   }
   return counter;
 }
