@@ -193,3 +193,40 @@ function changeCoins(bills: number, coins: number[]) {
  ```
 
 </details>
+
+### find pair of `()`
+
+the function should match the pairs of `()`,  if match all the paris, reutrn `true`, otherwise, return `false`
+
+```js
+function solution(s){
+
+}
+
+console.log(solution2(')(((()(())()))(((((())))(())())()))()((((()(())())()()))))((')); // false
+console.log(solution2('()()(())')); // true
+console.log(solution2('()()(()))))(((')); // false
+```
+
+<details><summary>show me</summary>
+ 
+ ```js
+function solution(s) {
+  let res = '';
+  const parts = s.split('');
+  for (let i = 0; i < parts.length; i++) {
+    const item = parts[i];
+    if(res.length === 0 || res[res.length -1] === item){
+      res += item;
+    }else{
+      res = res.slice(0,res.length -1);
+    }
+    if(res === ')'){
+      break;
+    }
+  }
+  return !res;
+}
+ ```
+
+</details>
