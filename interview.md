@@ -203,9 +203,9 @@ function solution(s){
 
 }
 
-console.log(solution2(')(((()(())()))(((((())))(())())()))()((((()(())())()()))))((')); // false
-console.log(solution2('()()(())')); // true
-console.log(solution2('()()(()))))(((')); // false
+console.log(solution(')(((()(())()))(((((())))(())())()))()((((()(())())()()))))((')); // false
+console.log(solution('()()(())')); // true
+console.log(solution('()()(()))))(((')); // false
 ```
 
 <details><summary>show me</summary>
@@ -226,6 +226,51 @@ function solution(s) {
     }
   }
   return !res;
+}
+ ```
+
+</details>
+
+### find total words in a multi-dimension array in directions: ↓, →, ↘
+
+```js
+function solution(board, word){
+
+}
+
+console.log(solution([
+  ['s', 'o', 's', 'o'],
+  ['s', 'o', 'o', 's'],
+  ['s', 's', 's', 's']
+], 'sos')) // it should return 3, because we can find 3 words `sos` in 3 directions
+```
+
+<details><summary>show me</summary>
+ 
+ ```js
+function solution(board, word) {
+  let counter = 0;
+  const totalLines = board.length;
+  const totalCols = board[0].length;
+  for (let y = 0; y < totalCols; y++) {
+    const lineItems = [];
+    const colItems = [];
+    const diagItems = [];
+    let yy = y;
+    for (let l = 0; l < totalLines; l++) {
+      if(y === 0){
+        // loop only once 
+        counter += board[l].join('').split(word).length - 1;
+      }
+      colItems.push(board[l][y]);
+      diagItems.push(board[l][yy++]);
+    }
+    counter += lineItems.join('').split(word).length - 1;
+    counter += colItems.join('').split(word).length - 1;
+    counter += diagItems.join('').split(word).length - 1;
+    lineItems.length = 0;
+  }
+  return counter;
 }
  ```
 
