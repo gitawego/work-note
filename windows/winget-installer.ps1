@@ -62,11 +62,10 @@ $confirmButton.Add_Click({
 # Display the Form object and wait for the user to select a version and click the Confirm button
 $dialogResult = $form.ShowDialog()
 
-echo "result : $dialogResult; version: $VERSION"
+Write-Host "result : $dialogResult; version: $VERSION"
 
-# If the user selected OK, display the selected version string
+# If the user didn't select OK, consider the action is cancelled
 if ($dialogResult -ine [System.Windows.Forms.DialogResult]::OK) {
-  # Version was already confirmed in the button click event
   Write-Host "User cancelled installation"
   [Environment]::Exit(1)
 }
