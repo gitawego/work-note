@@ -3,7 +3,7 @@ $WINGET_PKG_NAME = "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
 $WINGET_URL = "https://github.com/microsoft/winget-cli/releases/download/v${VERSION}/${WINGET_PKG_NAME}"
 $FILE_PATH = "${pwd}\${WINGET_PKG_NAME}"
 $FILE_ZIP_NAME = "${WINGET_PKG_NAME}.zip"
-$EXTRACTED_FOLDER = "${pwd}\extracted"
+$EXTRACTED_FOLDER = "${pwd}\extracted_winget_tmp"
 $WINGET_FILE_NAME = "AppInstaller_x64.msix"
 $WINGET_FILE_ZIP_NAME = "${WINGET_FILE_NAME}.zip"
 $PROGRAMS_PATH = "$env:USERPROFILE\programs"
@@ -89,7 +89,9 @@ RDir -Path $WINGET_TARGET_PATH
 
 Expand-Archive $EXTRACTED_FOLDER\$WINGET_FILE_ZIP_NAME -DestinationPath $WINGET_TARGET_PATH
 
-# New-Item -ItemType Junction -Target "$WINGET_TARGET_PATH\winget.exe" -Path "$BIN_PATH\winget.exe"
+RDir -Path $EXTRACTED_FOLDER
+
+# New-Item -ItemType SymbolicLink -Target "$WINGET_TARGET_PATH\winget.exe" -Path "$BIN_PATH\winget.exe"
 
 Write-Output "
 =======================================
