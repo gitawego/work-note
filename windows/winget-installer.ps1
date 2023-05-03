@@ -1,4 +1,13 @@
-$VERSION = "1.4.10173"
+$DEFAULT_VERSION = "1.4.10173"
+
+Add-Type -AssemblyName Microsoft.VisualBasic
+$VERSION = [Microsoft.VisualBasic.Interaction]::InputBox("Winget Version (default to $DEFAULT_VERSION):", 'VERSION', $DEFAULT_VERSION)
+
+if ([string]::IsNullOrWhiteSpace($VERSION)) {
+  Write-Host "User cancelled installation"
+  [Environment]::Exit(1)
+}
+
 $WINGET_PKG_NAME = "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
 $WINGET_URL = "https://github.com/microsoft/winget-cli/releases/download/v${VERSION}/${WINGET_PKG_NAME}"
 $FILE_PATH = "${pwd}\${WINGET_PKG_NAME}"
@@ -57,6 +66,8 @@ function RemovePath($Path) {
   )
 }
 
+
+
 MkdirP -Path $BIN_PATH
 MkdirP -Path $PROGRAMS_PATH
 
@@ -91,12 +102,8 @@ Expand-Archive $EXTRACTED_FOLDER\$WINGET_FILE_ZIP_NAME -DestinationPath $WINGET_
 
 RDir -Path $EXTRACTED_FOLDER
 
-# New-Item -ItemType SymbolicLink -Target "$WINGET_TARGET_PATH\winget.exe" -Path "$BIN_PATH\winget.exe"
 
-Write-Output "
-=======================================
-Winget is installed, please add $WINGET_TARGET_PATH in your PATH
-=======================================
-"
-# RemovePath -Path $BIN_PATH
-# AddPath -Path $BIN_PATH
+[Environment]::SetEnvironmentVariable( "WINGET_HOME", $WINGET_TARGET_PATH, [System.EnvironmentVariableTarget]::User )
+
+RemovePath -Path $WINGET_TARGET_PATH
+AddPath -Path "%WINGET_HOME%"
