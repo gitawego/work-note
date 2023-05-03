@@ -1,6 +1,7 @@
 $DEFAULT_VERSION = "1.1.11"
 $FILE_ZIP_NAME = "nvm-noinstall.zip"
 $PROGRAMS_PATH = "$env:APPDATA\nvm"
+$PROGRAM_SETTINGS_PATH = "$PROGRAMS_PATH\settings.txt"
 $SYMLINK = "$env:ProgramFiles\nodejs"
 
 function MkdirP {
@@ -70,6 +71,9 @@ $WebClient = New-Object System.Net.WebClient
 $WebClient.DownloadFile($NVM_URL, "$pwd\$FILE_ZIP_NAME")
 
 Expand-Archive $FILE_ZIP_NAME -DestinationPath $PROGRAMS_PATH
+
+New-Item -Path $PROGRAM_SETTINGS_PATH -ItemType File -Value "root: ${PROGRAMS_PATH}"
+Add-Content -Path $PROGRAM_SETTINGS_PATH -Value "`r`npath: $SYMLINK"
 
 [Environment]::SetEnvironmentVariable( "NVM_HOME", $PROGRAMS_PATH, [System.EnvironmentVariableTarget]::User )
 [Environment]::SetEnvironmentVariable( "NVM_SYMLINK", $SYMLINK, [System.EnvironmentVariableTarget]::User )
