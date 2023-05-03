@@ -1,3 +1,83 @@
+# Define the GitHub repository and API endpoint
+$repoOwner = "coreybutler"
+$repoName = "nvm-windows"
+$apiEndpoint = "https://api.github.com/repos/$repoOwner/$repoName/releases"
+$global:VERSION = ""
+
+Add-Type -AssemblyName System.Drawing
+Add-Type -AssemblyName System.Windows.Forms
+
+# Use the GitHub REST API to get a list of releases for the repository
+$releases = Invoke-RestMethod -Uri $apiEndpoint
+
+# Sort the releases in descending order by release date
+$releases = $releases | Sort-Object -Property published_at -Descending
+
+
+# Create a Windows Forms ComboBox object for the dropdown select list
+$comboBox = New-Object System.Windows.Forms.ComboBox
+$comboBox.Location = New-Object System.Drawing.Point(10, 10)
+$comboBox.Size = New-Object System.Drawing.Size(300, 30)
+
+# Add each release version to the ComboBox object
+foreach ($release in $releases) {
+  $versionMatch = [regex]::Match($release.name, "\d+(\.\d+)+(?:-[\w\d]+)?")
+  if ($versionMatch.Success) {
+    $versionNumber = $versionMatch.Value
+    $comboBox.Items.Add($versionNumber)
+  }
+}
+
+# Select the latest version number by default
+$comboBox.SelectedIndex = 0
+
+# Create a Windows Forms Form object to display the ComboBox object and confirm button
+$form = New-Object System.Windows.Forms.Form
+$form.Text = "Select a nvm version:"
+$form.StartPosition = "CenterScreen"
+$form.FormBorderStyle = "FixedSingle"
+$form.AutoSize = $true
+$form.AutoSizeMode = "GrowAndShrink"
+$form.Controls.Add($comboBox)
+
+# Create a Confirm button
+$confirmButton = New-Object System.Windows.Forms.Button
+$confirmButton.Location = New-Object System.Drawing.Point(10, 50)
+$confirmButton.Size = New-Object System.Drawing.Size(80, 30)
+$confirmButton.Text = "Confirm"
+$confirmButton.DialogResult = [System.Windows.Forms.DialogResult]::OK
+$form.AcceptButton = $confirmButton
+$form.Controls.Add($confirmButton)
+
+# Handle the Confirm button click event
+$confirmButton.Add_Click({
+    $selectedVersion = $comboBox.SelectedItem.ToString()
+    $selectedVersionString = [System.Windows.Forms.MessageBox]::Show("You selected version $selectedVersion, continue the installation ?", "Selected Version", [System.Windows.Forms.MessageBoxButtons]::YesNo, [System.Windows.Forms.MessageBoxIcon]::Question, [System.Windows.Forms.MessageBoxDefaultButton]::Button1, [System.Windows.Forms.MessageBoxOptions]::DefaultDesktopOnly)
+    if ($selectedVersionString -eq [System.Windows.Forms.DialogResult]::Yes) {
+      Write-Host "Selected version: $selectedVersion"
+      $global:VERSION = $selectedVersion
+    }
+  })
+
+# Display the Form object and wait for the user to select a version and click the Confirm button
+$dialogResult = $form.ShowDialog()
+
+Write-Host "result : $dialogResult; version: $VERSION"
+
+# If the user didn't select OK, consider the action is cancelled
+if ($dialogResult -ine [System.Windows.Forms.DialogResult]::OK) {
+  Write-Host "User cancelled installation"
+  [Environment]::Exit(1)
+}
+
+
+if ([string]::IsNullOrWhiteSpace($VERSION)) {
+  Write-Host "No version defined"
+  [Environment]::Exit(1)
+}
+
+Write-Host "going to install version: $VERSION"
+
 $DEFAULT_VERSION = "1.1.11"
 $FILE_ZIP_NAME = "nvm-noinstall.zip"
 $PROGRAMS_PATH = "$env:APPDATA\nvm"
