@@ -17,7 +17,7 @@ $releases = $releases | Sort-Object -Property published_at -Descending
 # Create a Windows Forms ComboBox object for the dropdown select list
 $comboBox = New-Object System.Windows.Forms.ComboBox
 $comboBox.Location = New-Object System.Drawing.Point(10, 10)
-$comboBox.Size = New-Object System.Drawing.Size(250, 30)
+$comboBox.Size = New-Object System.Drawing.Size(300, 30)
 
 # Add each release version to the ComboBox object
 foreach ($release in $releases) {
@@ -33,7 +33,7 @@ $comboBox.SelectedIndex = 0
 
 # Create a Windows Forms Form object to display the ComboBox object and confirm button
 $form = New-Object System.Windows.Forms.Form
-$form.Text = "Select a version:"
+$form.Text = "Select a winget version:"
 $form.StartPosition = "CenterScreen"
 $form.FormBorderStyle = "FixedSingle"
 $form.AutoSize = $true
