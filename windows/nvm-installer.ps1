@@ -131,10 +131,6 @@ function RemovePath($Path) {
   )
 }
 
-# $VERSION = Read-Host -Prompt "Enter the version (default to $DEFAULT_VERSION)"
-Add-Type -AssemblyName Microsoft.VisualBasic
-$VERSION = [Microsoft.VisualBasic.Interaction]::InputBox("Nvm Version (default to $DEFAULT_VERSION):", 'VERSION', $DEFAULT_VERSION)
-
 
 if ([string]::IsNullOrWhiteSpace($VERSION)) {
   Write-Host "User cancelled installation"
@@ -160,5 +156,7 @@ Add-Content -Path $PROGRAM_SETTINGS_PATH -Value "`r`npath: $SYMLINK"
 
 RemovePath -Path $PROGRAMS_PATH
 RemovePath -Path $SYMLINK
+RemovePath -Path "%NVM_HOME%"
+RemovePath -Path "%NVM_SYMLINK%"
 AddPath -Path "%NVM_HOME%"
 AddPath -Path "%NVM_SYMLINK%"
