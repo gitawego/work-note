@@ -175,4 +175,5 @@ RDir -Path $EXTRACTED_FOLDER
 [Environment]::SetEnvironmentVariable( "WINGET_HOME", $WINGET_TARGET_PATH, [System.EnvironmentVariableTarget]::User )
 
 RemovePath -Path $WINGET_TARGET_PATH
+RemovePath -Path "%WINGET_HOME%"
 AddPath -Path "%WINGET_HOME%"
