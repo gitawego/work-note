@@ -86,9 +86,8 @@ $FILE_ZIP_NAME = "${WINGET_PKG_NAME}.zip"
 $EXTRACTED_FOLDER = "${pwd}\extracted_winget_tmp"
 $WINGET_FILE_NAME = "AppInstaller_x64.msix"
 $WINGET_FILE_ZIP_NAME = "${WINGET_FILE_NAME}.zip"
-$PROGRAMS_PATH = "$env:USERPROFILE\programs"
 $BIN_PATH = "$env:USERPROFILE\bin"
-$WINGET_TARGET_PATH = "$PROGRAMS_PATH\winget"
+$WINGET_TARGET_PATH = "$env:APPDATA\winget"
 
 function MkdirP {
   param(
@@ -140,7 +139,6 @@ function RemovePath($Path) {
 
 
 MkdirP -Path $BIN_PATH
-MkdirP -Path $PROGRAMS_PATH
 
 
 
