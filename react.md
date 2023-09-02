@@ -99,4 +99,4 @@ export function App({query}:{query: string}){
 
 doc: https://react.dev/reference/react/lazy#lazy
 
-Lazy is mainly for code spliting, often used with [Suspense](https://react.dev/reference/react/Suspense)
+`React.lazy` is mainly for code spliting, often used with [Suspense](https://react.dev/reference/react/Suspense)
