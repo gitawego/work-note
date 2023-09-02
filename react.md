@@ -70,13 +70,14 @@ export function SearchResults({ result }: {result: Promise<T[]>}) {
 
 ```
 
-In the main component
+In the main component, use Suspense
 
 ```tsx
 import {SearchResults} from './SearchResults';
 import { fetchData } from './data';
 
 export function App(){
+  // return a promises
   const result = fetchData('./search');
   return (
     <Suspense fallback={<h2>Loading...</h2>}>
