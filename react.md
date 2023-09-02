@@ -2,6 +2,7 @@
 
 - [React Notes](#react-notes)
   - [Suspense](#suspense)
+  - [Lazy](#lazy)
 
 
 ## Suspense
@@ -93,3 +94,9 @@ export function App({query}:{query: string}){
 }
 
 ```
+
+## Lazy
+
+doc: https://react.dev/reference/react/lazy#lazy
+
+Lazy is mainly for code spliting, often used with [Suspense](https://react.dev/reference/react/Suspense)
