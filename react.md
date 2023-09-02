@@ -3,6 +3,7 @@
 - [React Notes](#react-notes)
   - [Suspense](#suspense)
   - [Lazy](#lazy)
+  - [useTransition](#usetransition)
 
 
 ## Suspense
@@ -100,3 +101,9 @@ export function App({query}:{query: string}){
 doc: https://react.dev/reference/react/lazy#lazy
 
 `React.lazy` is mainly for code splitting, often used with [Suspense](https://react.dev/reference/react/Suspense).
+
+## useTransition
+
+doc: https://react.dev/reference/react/useTransition
+
+`startTransition` will mark a state update as a transition.
