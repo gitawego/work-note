@@ -9,7 +9,7 @@ the most important part is how to implement the fetch method
 ```ts
 const status = Symbol('promiseStatus');
 const value = Symbol('promiseValue');
-const reason = Symbl('promiseReason');
+const reason = Symbol('promiseReason');
 function use(promise) {
   console.log('promise',promise[status]);
   if (promise[status] === 'fulfilled') {
