@@ -75,10 +75,12 @@ In the main component, use Suspense
 ```tsx
 import {SearchResults} from './SearchResults';
 import { fetchData } from './data';
+import { useMemo } from 'react';
 
 export function App({query}:{query: string}){
   // return a promises
-  const result = useMemo(()=>useForSuspense(fetchData('./search', query)),[query]);
+  const result = useMemo(()=>fetchData('./search', query),[query]);
+
   return (
     <Suspense fallback={<h2>Loading...</h2>}>
       <SearchResult result={result} />
