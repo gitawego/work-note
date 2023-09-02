@@ -49,7 +49,7 @@ export function useForSuspense(promise) {
 In the component `SearchResults.tsx`
 
 ```tsx
-import { fetchData } from './data';
+
 import { useForSuspense } from './useForSuspense';
 
 export function SearchResults({ result }: {result: Promise<T[]>}) {
@@ -74,6 +74,7 @@ In the main component
 
 ```tsx
 import {SearchResults} from './SearchResults';
+import { fetchData } from './data';
 
 export function App(){
   const result = fetchData('./search');
