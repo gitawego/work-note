@@ -11,10 +11,10 @@ use following function
 
 ```ts
 // use.ts
-const status = Symbol('promiseStatus');
-const value = Symbol('promiseValue');
-const reason = Symbol('promiseReason');
-function use(promise) {
+export const status = Symbol('promiseStatus');
+export const value = Symbol('promiseValue');
+export const reason = Symbol('promiseReason');
+export function use(promise) {
   console.log('promise',promise[status]);
   if (promise[status] === 'fulfilled') {
     // return data when promise fullfilled
