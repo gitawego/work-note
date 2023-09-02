@@ -30,7 +30,7 @@ export function use(promise) {
   } else {
     // promise status is undefined,
     promise[status] = 'pending';
-    // polify for promise api in old browsers
+    // inject status
     promise.then(
       result => {
         promise[status] = 'fulfilled';
