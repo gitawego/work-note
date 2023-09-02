@@ -106,4 +106,4 @@ doc: https://react.dev/reference/react/lazy#lazy
 
 doc: https://react.dev/reference/react/useTransition
 
-`startTransition` will mark a state update as a transition.
+`startTransition` will mark a state update as a transition. It will stop current operation, and start for next state update.
