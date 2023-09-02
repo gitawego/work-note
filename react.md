@@ -10,14 +10,14 @@ the most important part is how to implement the fetch method
 use following function 
 
 ```ts
-// use.ts
+// useForSuspense.ts
 export const status = Symbol('promiseStatus');
 export const value = Symbol('promiseValue');
 export const reason = Symbol('promiseReason');
 /**
  * construct promise for React.Suspense
  **/  
-export function use(promise) {
+export function useForSuspense(promise) {
   if (promise[status] === 'fulfilled') {
     // return data when promise fullfilled
     return promise[value];
