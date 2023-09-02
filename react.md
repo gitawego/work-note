@@ -7,7 +7,7 @@ doc: https://react.dev/reference/react/Suspense
 the most important part is how to implement the fetch method
 
 
-use following function 
+wrap a promise object with this function
 
 ```ts
 // useForSuspense.ts
