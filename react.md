@@ -7,29 +7,32 @@ doc: https://react.dev/reference/react/Suspense
 the most important part is how to implement the fetch method
 
 ```ts
+const status = Symbol('promiseStatus');
+const value = Symbol('promiseValue');
+const reason = Symbl('promiseReason');
 function use(promise) {
-  console.log('promise',promise.status);
-  if (promise.status === 'fulfilled') {
+  console.log('promise',promise[status]);
+  if (promise[status] === 'fulfilled') {
     // return data when promise fullfilled
-    return promise.value;
-  } else if (promise.status === 'rejected') {
+    return promise[value];
+  } else if (promise[status] === 'rejected') {
     // failed to get data, throw reason
-    throw promise.reason;
-  } else if (promise.status === 'pending') {
+    throw promise[reason];
+  } else if (promise[status] === 'pending') {
     // thrwo promise, it's the way to tell `Suspense` to wait
     throw promise;
   } else {
     // promise status is undefined,
-    promise.status = 'pending';
+    promise[status] = 'pending';
     // polify for promise api in old browsers
     promise.then(
       result => {
-        promise.status = 'fulfilled';
-        promise.value = result;
+        promise[status] = 'fulfilled';
+        promise[value] = result;
       },
       reason => {
-        promise.status = 'rejected';
-        promise.reason = reason;
+        promise[status] = 'rejected';
+        promise[reason] = reason;
       },      
     );
     throw promise;
