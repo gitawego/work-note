@@ -73,7 +73,7 @@ export function SearchResults({ result }: {result: Promise<T[]>}) {
 In the main component, use Suspense
 
 ```tsx
-import {SearchResults} from './SearchResults';
+import { SearchResults } from './SearchResults';
 import { fetchData } from './data';
 import { useMemo } from 'react';
 
