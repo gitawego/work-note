@@ -21,6 +21,7 @@ function use(promise) {
   } else {
     // promise status is undefined,
     promise.status = 'pending';
+    // polify for promise api in old browsers
     promise.then(
       result => {
         promise.status = 'fulfilled';
