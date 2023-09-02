@@ -6,7 +6,11 @@ doc: https://react.dev/reference/react/Suspense
 
 the most important part is how to implement the fetch method
 
+
+use following function 
+
 ```ts
+// use.ts
 const status = Symbol('promiseStatus');
 const value = Symbol('promiseValue');
 const reason = Symbol('promiseReason');
