@@ -1,5 +1,9 @@
 # React Notes
 
+- [React Notes](#react-notes)
+  - [Suspense](#suspense)
+
+
 ## Suspense
 
 doc: https://react.dev/reference/react/Suspense
