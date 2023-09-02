@@ -45,3 +45,43 @@ export function useForSuspense(promise) {
   }
 }
 ```
+
+In the component `SearchResults.tsx`
+
+```tsx
+import { fetchData } from './data';
+import { useForSuspense } from './useForSuspense';
+
+export function SearchResults({ result }: {result: Promise<T[]>}) {
+  const albums = useForSuspense(result);
+  if (albums.length === 0) {
+    return <p>No matches</p>;
+  }
+  return (
+    <ul>
+      {albums.map(album => (
+        <li key={album.id}>
+          {album.title} ({album.year})
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+```
+
+In the main component
+
+```tsx
+import {SearchResults} from './SearchResults';
+
+export function App(){
+  const result = fetchData('./search');
+  return (
+    <Suspense fallback={<h2>Loading...</h2>}>
+      <SearchResult result={result} />
+    </Suspense>
+  )
+}
+
+```
