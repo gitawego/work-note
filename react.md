@@ -106,4 +106,6 @@ doc: https://react.dev/reference/react/lazy#lazy
 
 doc: https://react.dev/reference/react/useTransition
 
-`startTransition` will mark a state update as a transition. It will stop current operation in the context of React, and start for next state update.
+`startTransition` will mark a state update as a transition. It will stop current operation in the context of React, and start for next state update immediately.
+
+It's very useful when user wants to change to another view (ex: new tab), while the current component is in heavy render process.
