@@ -76,9 +76,9 @@ In the main component, use Suspense
 import {SearchResults} from './SearchResults';
 import { fetchData } from './data';
 
-export function App(){
+export function App({query}:{query: string}){
   // return a promises
-  const result = fetchData('./search');
+  const result = useMemo(()=>useForSuspense(fetchData('./search', query)),[query]);
   return (
     <Suspense fallback={<h2>Loading...</h2>}>
       <SearchResult result={result} />
