@@ -18,7 +18,6 @@ export const reason = Symbol('promiseReason');
  * construct promise for React.Suspense
  **/  
 export function use(promise) {
-  console.log('promise',promise[status]);
   if (promise[status] === 'fulfilled') {
     // return data when promise fullfilled
     return promise[value];
