@@ -1,6 +1,6 @@
 # WSL
 
-## let windows use linux permission
+## let windows uses linux permission
 
 ### encounterd error
 
