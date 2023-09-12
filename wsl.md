@@ -38,5 +38,5 @@ It happens for me when installing WSL without admin.
     C:\Windows\System32\wsl.exe
     C:\Users\<username>\AppData\Local\Microsoft\WindowsApps\wsl.exe
   ```
-- create a shortcut in terminal, and set the command line to: `C:\Users\<username>\AppData\Local\Microsoft\WindowsApps\wsl.exe -d ubuntu`
+- create a shortcut in terminal, and set the command line to: `C:\Users\<username>\AppData\Local\Microsoft\WindowsApps\wsl.exe -d ubuntu --cd ~`
 - enter ubuntu using this terminal shortcut.
