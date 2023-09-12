@@ -29,7 +29,7 @@ Relaunch Ubuntu WSL
 
 The metadata option allows Windows to support Linux system permissions: now all chmod/chown-related stuff will work correctly!
 
-## The parameter is incorrect. when enter into ubuntu via cmd
+## The parameter is incorrect. when entering into ubuntu via cmd
 
 It happens for me when installing WSL without admin.
 
