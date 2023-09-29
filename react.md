@@ -118,3 +118,7 @@ doc: https://react.dev/reference/react/useDeferredValue
 When `useDeferredValue` receives a different value (compared with Object.is), in addition to the current render (when it still uses the previous value), it schedules a re-render in the background with the new value. The background re-render is interruptible.
 
 if the new rendered content in backend failed, the old view remains.
+
+## Await component
+
+https://buildui.com/recipes/await-component
