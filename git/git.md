@@ -12,3 +12,14 @@ This will still download the commit history, but it won't download file trees an
 git clone --filter=tree:0 <url>
 
 ```
+
+## How to "pull request" a specific commit
+
+```bash
+# If you haven't set up your remote yet, run this line:
+# git remote add upstream https://github.com/konradjk/exac_browser.git
+git fetch --all                                   # Get the latest code
+git checkout -b my-single-change upstream/master  # Create new branch based on upstream/master
+git cherry-pick b50b2e7                           # Cherry pick the commit you want
+git push -u origin my-single-change               # Push your changes to the remote branch
+```
