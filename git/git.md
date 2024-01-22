@@ -15,6 +15,7 @@ git clone --filter=tree:0 <url>
 
 ## How to "pull request" a specific commit
 
+
 ```bash
 # If you haven't set up your remote yet, run this line:
 # git remote add upstream https://github.com/konradjk/exac_browser.git
