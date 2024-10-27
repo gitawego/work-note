@@ -35,7 +35,6 @@ yay -S --needed \
   docker \
   gimp \
   inkscape \
-  keeweb-desktop-bin \
   lolcat \
   microsoft-edge-stable-bin \
   nvm \
