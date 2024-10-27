@@ -41,8 +41,6 @@ yay -S --needed \
   slack-desktop \
   steam \
   visual-studio-code-bin \
-  ytmdesktop-bin \
-  zsh \
   linuxqq \
   skype
 
