@@ -31,18 +31,14 @@ if computer has hybride graphical cards, then install `nvidia-prime` to manage d
 
 yay -S --needed \
   blender \
-  cozy-desktop \
   discord \
   docker \
   gimp \
   inkscape \
   keeweb-desktop-bin \
-  libreoffice-fresh \
   lolcat \
   microsoft-edge-stable-bin \
-  molotov \
   nvm \
-  ruby-colorls \
   slack-desktop \
   steam \
   visual-studio-code-bin \
