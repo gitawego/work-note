@@ -48,4 +48,6 @@ yay -S --needed \
   visual-studio-code-bin \
   ytmdesktop-bin \
   zsh \
+  linuxqq \
+  skype \
 
