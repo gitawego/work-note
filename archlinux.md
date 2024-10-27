@@ -42,5 +42,6 @@ yay -S --needed \
   steam \
   visual-studio-code-bin \
   linuxqq \
-  skype
+  skype \
+  wps-office-cn
 
