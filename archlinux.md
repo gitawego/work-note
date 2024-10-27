@@ -49,5 +49,5 @@ yay -S --needed \
   ytmdesktop-bin \
   zsh \
   linuxqq \
-  skype \
+  skype
 
