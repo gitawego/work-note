@@ -17,7 +17,10 @@ sudo pacman -Syu
 # command like apt-get install <package>
   
   ```shell
+  # to install
   sudo pacman -S <package>
+  # to remove
+  sudo pacman -R <package>
   ```
 
 # drivers
