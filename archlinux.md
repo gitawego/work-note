@@ -27,6 +27,12 @@ sudo pacman -Syu
 
 if computer has hybride graphical cards, then install `nvidia-prime` to manage different graphical cards.
 
+# how to enable bluetooth
+
+https://itsfoss.com/bluetooth-arch-linux/
+
+
+
 # softwares
 
 yay -S --needed \
