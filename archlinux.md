@@ -34,6 +34,19 @@ if computer has hybride graphical cards, then install `nvidia-prime` to manage d
 
 https://itsfoss.com/bluetooth-arch-linux/
 
+```shell
+# check status
+sudo systemctl status bluetooth
+
+# enable
+sudo systemctl enable bluetooth
+
+# start
+sudo systemctl start bluetooth
+
+
+```
+
 
 
 # softwares
