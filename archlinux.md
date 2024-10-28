@@ -49,5 +49,6 @@ yay -S --needed \
   visual-studio-code-bin \
   linuxqq \
   skype \
-  wps-office-cn
+  wps-office-cn \
+  ibus-pinyin
 
