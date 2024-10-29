@@ -67,5 +67,8 @@ yay -S --needed \
   linuxqq \
   skype \
   wps-office-cn \
-  ibus-pinyin
+  ibus-pinyin \
+  flatpak
+
+flatpak install flathub com.tencent.WeChat
 
