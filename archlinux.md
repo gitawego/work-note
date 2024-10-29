@@ -72,7 +72,7 @@ yay -S --needed \
 
 ## flatpak softwares
 
-remember to set folders in `XDG_DATA_DIRS`, put follow line in ~/.bashrc
+remember to set folders in `XDG_DATA_DIRS`, put follow line in `~/.bashrc`
 
 ```bash
 export XDG_DATA_DIRS="/home/$USER/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:$XDG_DATA_DIRS"
