@@ -72,5 +72,10 @@ yay -S --needed \
 
 ## flatpak softwares
 
+remember to set folders in path
+
+export XDG_DATA_DIRS="/home/$USER/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:$XDG_DATA_DIRS"
+
+
 flatpak install flathub com.tencent.WeChat
 
