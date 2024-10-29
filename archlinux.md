@@ -27,6 +27,7 @@ sudo pacman -Syu
 
 - nvidia drivers: [installing drivers](https://github.com/lutris/docs/blob/master/InstallingDrivers.md#arch--manjaro--other-arch-linux-derivatives)
 - wine: [install wine dependencies](https://github.com/lutris/docs/blob/master/WineDependencies.md)
+- nvidia prime: https://wiki.archlinux.org/title/PRIME#PRIME_render_offload
 
 if computer has hybride graphical cards, then install `nvidia-prime` to manage different graphical cards.
 
