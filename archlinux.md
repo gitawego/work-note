@@ -70,5 +70,7 @@ yay -S --needed \
   ibus-pinyin \
   flatpak
 
+## flatpak softwares
+
 flatpak install flathub com.tencent.WeChat
 
