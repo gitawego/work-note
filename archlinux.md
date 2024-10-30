@@ -68,7 +68,8 @@ yay -S --needed \
   skype \
   wps-office-cn \
   ibus-pinyin \
-  flatpak
+  flatpak \
+  ttf-ms-win11-auto
 
 ## flatpak softwares
 
