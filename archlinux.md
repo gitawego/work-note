@@ -45,6 +45,10 @@ sudo systemctl enable bluetooth
 # start
 sudo systemctl start bluetooth
 
+# or use following commands
+
+bluetoothctl power off && bluetoothctl power on
+
 
 ```
 
