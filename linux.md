@@ -106,3 +106,8 @@ export XDG_DATA_DIRS="/home/$USER/.local/share/flatpak/exports/share:/var/lib/fl
 
 flatpak install flathub com.tencent.WeChat
 
+# FAQ
+
+## super key is not working in gnome
+
+try key `Fn+F2`, it may be the cause.
