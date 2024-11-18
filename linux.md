@@ -93,7 +93,8 @@ yay -S --needed \
   wps-office-cn \
   ibus-pinyin \
   flatpak \
-  ttf-ms-win11-auto
+  ttf-ms-win11-auto \
+  sane
 
 ### flatpak softwares
 
@@ -104,7 +105,7 @@ export XDG_DATA_DIRS="/home/$USER/.local/share/flatpak/exports/share:/var/lib/fl
 ```
 
 
-flatpak install flathub com.tencent.WeChat
+flatpak install flathub com.tencent.WeChat org.gnome.SimpleScan
 
 # FAQ
 
