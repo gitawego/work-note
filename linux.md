@@ -113,7 +113,7 @@ github: https://github.com/flathub/com.microsoft.Edge
 
 ##### Passing custom flags
 
-We encourage users to insert all flags inside `~/.var/app/com.microsoft.Edge/config/edge-flags.conf`. If this file doesn't exist, then create one. For each flag, they should be separated by newlines. For example, if you want to pass --ozone-platform=wayland and --enable-features=UseOzonePlatform, then the edge-flags.conf file will look like the following:
+We encourage users to insert all flags inside `~/.var/app/com.microsoft.Edge/config/edge-flags.conf`. If this file doesn't exist, then create one. For each flag, they should be separated by newlines. For example, if you want to pass `--ozone-platform=wayland` and `--enable-features=UseOzonePlatform`, then the edge-flags.conf file will look like the following:
 
 ```
 --ozone-platform=wayland
