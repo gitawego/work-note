@@ -115,7 +115,7 @@ github: https://github.com/flathub/com.microsoft.Edge
 
 We encourage users to insert all flags inside `~/.var/app/com.microsoft.Edge/config/edge-flags.conf`. If this file doesn't exist, then create one. 
 
-Following flags are tested for hardware accelerated video encode
+Following flags are tested for hardware accelerated video encode (2024-12-10)
 
 ```
 --ozone-platform-hint=auto
