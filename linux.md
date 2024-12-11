@@ -125,6 +125,9 @@ Following flags are tested for hardware accelerated video encode (2024-12-10), i
 --gtk-version=4
 ```
 
+note
+- use `--gtk-version=4` to resolve ibus input issue
+
 # FAQ
 
 ## super key is not working in gnome
