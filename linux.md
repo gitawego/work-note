@@ -126,6 +126,7 @@ Following flags are tested for hardware accelerated video encode (2024-12-10), i
 ```
 
 note
+
 - use `--gtk-version=4` to resolve ibus input issue
 
 # FAQ
