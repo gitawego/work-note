@@ -122,6 +122,7 @@ Following flags are tested for hardware accelerated video encode (2024-12-10), i
 --ignore-gpu-blocklist
 --enable-features=VaapiVideoEncoder,AcceleratedVideoDecodeLinuxGL,VaapiVideoDecoder,VaapiIgnoreDriverChecks
 --enable-zero-copy
+--gtk-version=4
 ```
 
 # FAQ
