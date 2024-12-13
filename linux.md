@@ -102,6 +102,24 @@ yay -S --needed \
 - edge config file location: `~/.config/microsoft-edge-stable-flags.conf`
 - edge beta config file location: `~/.config/microsoft-edge-beta-flags.conf`
 
+#### hardware accelerated vieo encode
+
+Following flags are tested for hardware accelerated video encode (2024-12-10)
+
+put following content in flag conf
+
+```
+--ozone-platform-hint=auto
+--ignore-gpu-blocklist
+--enable-features=VaapiVideoEncoder,AcceleratedVideoDecodeLinuxGL,VaapiVideoDecoder,VaapiIgnoreDriverChecks
+--enable-zero-copy
+--gtk-version=4
+```
+
+note
+
+- use `--gtk-version=4` to resolve ibus input issue
+
 ### flatpak softwares
 
 remember to set folders in `XDG_DATA_DIRS`, put follow line in `~/.bashrc`
@@ -121,19 +139,7 @@ github: https://github.com/flathub/com.microsoft.Edge
 
 We encourage users to insert all flags inside `~/.var/app/com.microsoft.Edge/config/edge-flags.conf`. If this file doesn't exist, then create one. 
 
-Following flags are tested for hardware accelerated video encode (2024-12-10), it works as well for chrome/chromium
 
-```
---ozone-platform-hint=auto
---ignore-gpu-blocklist
---enable-features=VaapiVideoEncoder,AcceleratedVideoDecodeLinuxGL,VaapiVideoDecoder,VaapiIgnoreDriverChecks
---enable-zero-copy
---gtk-version=4
-```
-
-note
-
-- use `--gtk-version=4` to resolve ibus input issue
 
 # FAQ
 
