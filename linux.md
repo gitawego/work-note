@@ -96,6 +96,12 @@ yay -S --needed \
   ttf-ms-win11-auto \
   sane
 
+### chrome and microsoft edge
+
+- chrome config file location: `~/.config/chrome-flags.conf`
+- edge config file location: `~/.config/microsoft-edge-stable-flags.conf`
+- edge beta config file location: `~/.config/microsoft-edge-beta-flags.conf`
+
 ### flatpak softwares
 
 remember to set folders in `XDG_DATA_DIRS`, put follow line in `~/.bashrc`
