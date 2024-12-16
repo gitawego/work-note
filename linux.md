@@ -76,13 +76,14 @@ bluetoothctl power off && bluetoothctl power on
 
 recommended kernel: [linux-zen](https://archlinux.org/packages/extra/x86_64/linux-zen/)
 
-```
+```bash
 yay -S linux-zen linux-zen-headers
 ```
 
 
 ## softwares
 
+```bash
 yay -S --needed \
   blender \
   discord \
@@ -102,6 +103,7 @@ yay -S --needed \
   flatpak \
   ttf-ms-win11-auto \
   sane
+```
 
 ### chrome and microsoft edge
 
