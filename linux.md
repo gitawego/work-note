@@ -72,6 +72,13 @@ bluetoothctl power off && bluetoothctl power on
 
 ```
 
+## Custom Kernel
+
+recommended kernel: [linux-zen](https://archlinux.org/packages/extra/x86_64/linux-zen/)
+
+```
+yay -S linux-zen linux-zen-headers
+```
 
 
 ## softwares
