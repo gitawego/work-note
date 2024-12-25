@@ -138,7 +138,7 @@ export XDG_DATA_DIRS="/home/$USER/.local/share/flatpak/exports/share:/var/lib/fl
 ```
 
 
-flatpak install flathub com.tencent.WeChat org.gnome.SimpleScan com.microsoft.Edge
+flatpak install flathub com.tencent.WeChat org.gnome.SimpleScan com.microsoft.Edge com.yacreader.YACReader
 
 #### Microsoft edge
 
