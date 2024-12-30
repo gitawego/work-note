@@ -105,6 +105,7 @@ yay -S --needed \
   sane
 ```
 
+
 ### chrome and microsoft edge
 
 - chrome config file location: `~/.config/chrome-flags.conf`
@@ -149,6 +150,15 @@ github: https://github.com/flathub/com.microsoft.Edge
 We encourage users to insert all flags inside `~/.var/app/com.microsoft.Edge/config/edge-flags.conf`. If this file doesn't exist, then create one. 
 
 
+### Gnome
+
+#### enable online account support
+
+install following packages for online account support
+
+```
+yay -S gvfs-onedrive gvfs-google gvfs-goa
+```
 
 # FAQ
 
