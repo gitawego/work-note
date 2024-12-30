@@ -157,7 +157,7 @@ We encourage users to insert all flags inside `~/.var/app/com.microsoft.Edge/con
 install following packages for online account support
 
 ```
-yay -S gvfs-onedrive gvfs-google gvfs-goa
+yay -S gvfs-onedrive gvfs-google gvfs-goa evolution
 ```
 
 # FAQ
