@@ -98,6 +98,7 @@ yay -S --needed \
   visual-studio-code-bin \
   linuxqq \
   wechat-bin \
+  wechat \
   skype \
   wps-office-cn \
   ibus-pinyin \
