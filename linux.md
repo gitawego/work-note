@@ -97,6 +97,7 @@ yay -S --needed \
   steam \
   visual-studio-code-bin \
   linuxqq \
+  wechat-bin \
   skype \
   wps-office-cn \
   ibus-pinyin \
