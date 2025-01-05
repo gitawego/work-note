@@ -140,8 +140,13 @@ remember to set folders in `XDG_DATA_DIRS`, put follow line in `~/.bashrc`
 export XDG_DATA_DIRS="/home/$USER/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:$XDG_DATA_DIRS"
 ```
 
-
-flatpak install flathub com.tencent.WeChat org.gnome.SimpleScan com.microsoft.Edge com.yacreader.YACReader
+```bash
+flatpak install flathub com.tencent.WeChat \
+  org.gnome.SimpleScan \
+  com.microsoft.Edge \
+  com.yacreader.YACReader \
+  de.haeckerfelix.Shortwave
+```
 
 #### Microsoft edge
 
