@@ -104,7 +104,8 @@ yay -S --needed \
   ibus-pinyin \
   flatpak \
   ttf-ms-win11-auto \
-  sane
+  sane \
+  yacreader
 ```
 
 
