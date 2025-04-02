@@ -72,6 +72,10 @@ bluetoothctl power off && bluetoothctl power on
 
 ```
 
+## Setup facial unlock
+
+https://gist.github.com/pastleo/76597c6ae8f95bb02982fea6df3a3ade
+
 ## Custom Kernel
 
 recommended kernel: [linux-zen](https://archlinux.org/packages/extra/x86_64/linux-zen/)
