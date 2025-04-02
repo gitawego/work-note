@@ -131,7 +131,7 @@ put following content in flag conf
 
 note
 
-- use `--gtk-version=4` to resolve ibus input issue
+- use `--gtk-version=4` to resolve Chinese input issue
 
 ### flatpak softwares
 
