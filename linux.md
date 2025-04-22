@@ -135,7 +135,8 @@ put following content in flag conf
 
 note
 
-- use `--gtk-version=4` to resolve Chinese input issue
+- use `--gtk-version=4` to resolve Chinese input issue.
+- if chrome/edge is having issue to enable hardware acceleration, try to remove the flag `--ozone-platform-hint=auto`.
 
 ### flatpak softwares
 
