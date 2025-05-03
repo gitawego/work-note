@@ -179,3 +179,9 @@ yay -S gvfs-onedrive gvfs-google gvfs-goa evolution gnome-shell-extension-appind
 ## super key is not working in gnome
 
 try key `Fn+F2`, it may be the cause.
+
+## How to change default terminal back to bash
+
+```bash
+chsh -s /usr/bin/bash
+```
