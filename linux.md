@@ -109,7 +109,8 @@ yay -S --needed \
   flatpak \
   ttf-ms-win11-auto \
   sane \
-  yacreader
+  yacreader \
+  ocs-url
 ```
 
 
