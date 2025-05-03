@@ -180,7 +180,7 @@ yay -S gvfs-onedrive gvfs-google gvfs-goa evolution gnome-shell-extension-appind
 
 try key `Fn+F2`, it may be the cause.
 
-## How to change default terminal back to bash
+## How to change default terminal back to bash (ex: in CachyOS)
 
 ```bash
 chsh -s /usr/bin/bash
