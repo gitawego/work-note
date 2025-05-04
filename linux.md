@@ -153,7 +153,8 @@ flatpak install flathub com.tencent.WeChat \
   com.microsoft.Edge \
   com.yacreader.YACReader \
   de.haeckerfelix.Shortwave \
-  net.nokyan.Resources
+  net.nokyan.Resources \
+  io.missioncenter.MissionCenter
 ```
 
 #### Microsoft edge
