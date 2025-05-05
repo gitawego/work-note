@@ -187,3 +187,7 @@ try key `Fn+F2`, it may be the cause.
 ```bash
 chsh -s /usr/bin/bash
 ```
+
+## error: cachyos-extra-v3: signature from "CachyOS <admin@cachyos.org>" is invalid
+
+run `sudo cachyos-rate-mirrors` to get the most updated mirror
